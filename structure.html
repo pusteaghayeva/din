@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/img/logo.ico" type="image/x-icon">
+    <title>NMR Daxili İşlər Nazirliyi</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- bootstrap end -->
+    <link rel="stylesheet" href="./src/css/global.css">
+</head>
+
+<body>
+    <!-- <div class="loader">
+        <img src="./src/img/din-logo.png" alt="logo">
+    </div> -->
+    <!-- Back to top button -->
+    <button class="scroll-top">
+        <div class="arrow up"></div>
+    </button>
+
+
+    <div class="container-eye">
+        <div class="container ">
+
+            <header>
+                <h2></h2>
+                <div id="accessibility" class="font-slider-container">
+                    <div class="font-slider-controls">
+                        <span class="font-small" data-action="-">A</span>
+                        <span class="font-large" data-action="+">A</span>
+                    </div>
+                    <div class="font-slider">
+                        <input type="range" class="font-slider__range" min="8" max="18" value="12">
+                        <span class="range-min font-small">A</span>
+                        <span class="range-max font-large">A</span>
+                    </div>
+                </div>
+                <section>
+                    <div class="bg-flex">
+                        <button class="blue" class="button-reset"><i class="fa-solid fa-circle-dot"></i></button>
+                        <button class="green" class="button-reset"><i class="fa-solid fa-circle-dot"></i></button>
+                        <!-- <button class="white" class="button-reset"><i class="fa-solid fa-circle-dot"></i></button> -->
+                        <br />
+                        <button id="reset" class="button-reset"><i class="fa-solid fa-circle-dot"></i></button>
+                    </div>
+                </section>
+            </header>
+        </div>
+    </div>
+
+
+
+
+    <header>
+        <div class="language-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-4">
+                        <p class="date-blog">
+                            24/07/2024, 11:42
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-md-9 col-lg-9 col-xl-8">
+                        <div class="row">
+                            <div class="col-8 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+
+                                <div class="switch-eye">
+                                    <span>Görmə çətinliyi olanlar üçün:</span>
+                                    <a href="?limited/az/mainpage//"><img src="./src/img/switch-eye.svg"
+                                            class="switch-eye-img" alt="eye" id="toggle-eye-icon"></a>
+                                </div>
+
+
+                            </div>
+                            <div class="col-4 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                                <div class="dropdown">
+                                    <button class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        AZ <i class="fa-solid fa-chevron-down down-icon"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">EN</a></li>
+                                        <li><a class="dropdown-item" href="#">RU</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="col-5 col-sm-6 d-md-none d-lg-block col-lg-3 col-xl-3">
+                                <div class="header-social-link">
+                                    <ul class="header-social-ul">
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-7 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="search-blog">
+                                    <form class="form-inline">
+                                        <input class="form-control mr-sm-2" type="search" placeholder=""
+                                            aria-label="Search">
+                                        <button class="btn  my-2 my-sm-0 btn-search" type="submit"><img
+                                                src="./src/img/search.svg" class="search-img" alt=""></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="header-section">
+            <a href="" class="header-logo" id="resetLink">
+                <img src="./src/img/logo-az.png" alt="header-img" class="header-img">
+            </a>
+            <div class="header-call-center">
+                <img src="./src/img/call.svg" class="call-img" alt="phone-img">
+                <p class="call-center-small">Zəng mərkəzi:</p>
+                <a href="" class="call-center-big">102</a>
+                <a href="./electronic_application.html" class="online-btn">ONLAYN MÜRACİƏT</a>
+            </div>
+        </div>
+
+        <div class="main-navbar">
+            <nav class="navbar navbar-expand-lg header-nav">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" id="home" href="index.html">Əsas səhifə</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="ministry" href="management.html">Nazirlik</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="media" href="metbuat.html">Mətbuat Xidməti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="legislation" href="qanunvericilik.html">Qanunvericilik</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="reception" href="qebul.html">Qəbul günləri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="announcements" href="elanlar.html">Elanlar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="online" href="electronic_application.html">Onlayn
+                                    müraciətlər</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+
+    </header>
+
+    <main>
+
+
+        <div class="full-width-sidebar">
+            <!-- style="min-height: 1262px;" -->
+        </div>
+        <div class="container bg-white">
+            <div class="ministry-layout">
+                <div class="row">
+
+                    <div class="col-md-3 contact-sidebar ">
+                        <ul id="sidebar-list">
+                            <li><a  href="management.html">Rəhbərlik</a>
+                            </li>
+                            <li><a class="active" href="structure.html">DİN-in strukturu</a>
+                            </li>
+                            <li><a href="">DİN-in tarixi</a>
+                            </li>
+                            <li><a href="">Beynəlxalq əməkdaşlıq</a>
+                            </li>
+                            <!-- <li><a href="https://mia.gov.az/az/menu/152/">İnsan alverinə qarşı mübarizə</a> -->
+                            </li>
+                            <li><a href="">İctimai Şura</a>
+                            </li>
+                            <li><a href="">Polis Akademiyası</a>
+                            </li>
+                            <li><a href="">Statistika</a>
+                            </li>
+                            <li><a href="">"Polis" qəzeti</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-9">
+
+
+                        <div class="ministry-content i-content">
+                            <h2>Rəhbərlik</h2>
+
+                            <p style="text-align: justify;">Nazirliyə Azərbaycan Respublikasının daxili işlər naziri
+                                rəhbərlik edir.
+                                Azərbaycan Respublikasının daxili işlər naziri Azərbaycan Respublikasının Prezidenti
+                                tərəfindən vəzifəyə təyin edilir və vəzifədən azad olunur. <br><br>Azərbaycan
+                                Respublikasının daxili işlər naziri Nazirliyin işini təşkil edir və təkbaşçılıq prinsipi
+                                əsasında daxili işlər orqanlarının və daxili qoşunların fəaliyyətinə rəhbərlik edir.
+                                Azərbaycan Respublikasının Daxili İşlər Nazirliyində Nazirliyin rəhbər işçilərindən
+                                ibarət məşvərətçi orqan - Kollegiya fəaliyyət göstərir. <br><br>Kollegiyanın sədri
+                                tutduğu vəzifəyə görə daxili işlər naziri, üzvləri isə tutduqları vəzifəyə görə nazir
+                                müavinləridir. Kollegiyanın digər üzvləri Nazirliyin başqa rəhbər vəzifələri üzrə
+                                nazirin təqdimatına əsasən Azərbaycan Respublikasının Prezidenti tərəfindən təsdiq
+                                olunur.</p>
+                            <p style="text-align: justify;">&nbsp;</p>
+
+
+                            <div class="accordion custom-accordion" id="accordionGov">
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading1" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Naxçıvan Muxtar Respublikası Daxili İşlər Naziri polis general-mayoru</h2>
+                                    </div>
+
+                                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <p style="text-align: justify;">Süleyman Əsgər oğlu Neymətov 1972-ci
+                                                        ildə hazırkı Naxçıvan Muxtar Respublikası Babək rayonunun Nehrəm
+                                                        kəndində anadan olmuşdur. 1991–1993-cü illərdə Azərbaycan
+                                                        Silahlı Qüvvələrin sıralarında müddətli həqiqi hərbi xidmət
+                                                        keçmişdir. 2000-ci ildə Azərbaycan Respublikası Daxili İşlər
+                                                        Nazirliyinin Polis Akademiyasını bitirmişdir.
+
+                                                        Süleyman Neymətov 1993-cü ildən daxili işlər orqanlarında xidmət
+                                                        edir. O, 1993–1994-cü illərdə Naxçıvan şəhər polis şöbəsinin
+                                                        polis nəfəri, 1994–2005-ci ilərdə Azərbaycan Respublikası Daxili
+                                                        İşlər Nazirliyinin Komendant Xidmətinin polis nəfəri, bölmə
+                                                        komandiri, taqım komandiri, bölük komandirinin müavini, baş
+                                                        inspektoru olmuşdur. 2005–2013-cü illərdə Nəsimi rayon polis
+                                                        idarəsinin bölük komandiri, rəis müavini, 2013–2016-cı illərdə
+                                                        Sumqayıt şəhər polis idarəsinin rəis müavini, 2016–2020-ci
+                                                        illərdə Quba rayon polis şöbəsinin rəisi, 2020–2022-ci illərdə
+                                                        isə Suraxanı rayon polis idarəsinin rəisi vəzifələrində xidmət
+                                                        etmişdir.
+
+                                                        Naxçıvan Muxtar Respublikası Ali Məclisi sədrinin 28 dekabr
+                                                        2022-ci il tarixli Sərəncamı ilə Naxçıvan Muxtar Respublikasının
+                                                        daxili işlər naziri vəzifəsinə təyin edilmişdir. Azərbaycan
+                                                        Respublikası Prezidentinin 25 iyun 2023-cü il tarixli Sərəncamı
+                                                        ilə ona polis general-mayoru ali xüsusi rütbəsi verilmişdir.
+
+                                                        Azərbaycan Respublikası Prezidentinin müvafiq fərman və
+                                                        sərəncamları ilə 30 iyun 2002-ci ildə "İgidliyə görə", 1 iyul
+                                                        2020-ci ildə isə "Vətən uğrunda" medalları ilə təltif
+                                                        edilmişdir.
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="./src/img/minister.jpg" data-fancybox="group1"><img
+                                                            class="img-fluid image" src="./src/img/minister.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading2" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Naxçıvan Muxtar Respublikası Daxili İşlər Nazirinin müavini polis
+                                            polkovnik-leytenantı
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <p style="text-align: justify;">1970-ci ildə Naxçıvan Muxtar
+                                                        Respublikasının Şərur rayonunun Yuxarı Daşarx kəndində anadan
+                                                        olmuşdur.&nbsp;</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="./src/img/manager1.jpg" data-fancybox="group1"><img
+                                                            class="img-fluid image" src="./src/img/manager1.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading3" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Azərbaycan Respublikasının daxili işlər nazirinin müavini, polis
+                                            general-leytenantı Kərimov Oqtay Əsgər oğlu</h2>
+                                    </div>
+
+                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <p style="text-align: justify;">Kərimov Oqtay Əsgər oğlu 1967-ci il
+                                                        iyunun 6-da Bakı şəhərində anadan olmuşdur. &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp; &nbsp; &nbsp;<br>1988-ci ildə Simferopol Ali Hərbi
+                                                        Siyasi İnşaat Məktəbini, 1997-ci ildə DİN-in Polis Akademiyasını
+                                                        bitirmişdir.&nbsp;</p>
+                                                    <p style="text-align: justify;">1988-1990-cı illərdə SSRİ Silahlı
+                                                        Qüvvələrində bölük komandirinin müavini, 1991-1992-ci ilərdə
+                                                        Azərbaycan Respublikası Daxili İşlər Nazirliyinin tabeliyindəki
+                                                        nizami polis hissəsində bölük komandirinin müavini və bölük
+                                                        komandiri, 1992-2015-ci illərdə Baş İctimai Təhlükəsizlik
+                                                        İdarəsində inspektor, baş inspektor, söbə rəisi, Baş idarə
+                                                        rəisinin müavini, 2015-2016-cı illərdə DİN-in Daxili
+                                                        Qoşunlarında Qərargah rəisinin 1-ci müavini, 2016-2022-ci
+                                                        illərdə Baş İctimai Təhlükəsizlik İdarəsinin rəisi vəzifələrində
+                                                        xidmət etmişdir.</p>
+                                                    <p style="text-align: justify;">Azərbaycan Respublikası
+                                                        Prezidentinin 2022-ci il 16 dekabr tarixli Sərəncamı ilə
+                                                        Azərbaycan Respublikası daxili işlər nazirinin müavini
+                                                        vəzifəsinə təyin olunmuşdur.&nbsp;<br>Azərbaycan Respublikası
+                                                        Prezidentinin 2017-ci il 29 iyun tarixli Sərəncamı ilə polis
+                                                        general-mayoru, 2023-cü il 25 iyun tarixli 3945 nömrəli
+                                                        Sərəncamı ilə polis general-leytenantı ali xüsusi rütbəsi
+                                                        verilmişdir.<br><br>Cinayətkarlığa qarşı mübarizə, ictimai
+                                                        təhlükəsizliyin təmin edilməsi və asayişin qorunması üzrə
+                                                        qarşıya qoyulmuş tapşırıqları yerinə yetirərkən fərqləndiyinə və
+                                                        xüsusi xidmətlərinə görə Azərbaycan Respublikası Prezidentinin
+                                                        Sərəncamları ilə 2004-cü ildə “İgidliyə görə” medalı, 2015-ci
+                                                        ildə “3-cü dərəcəli Vətənə xidmətə görə” ordeni, 2018-ci ildə
+                                                        “Vətən uğrunda” medalı, 2021-ci ildə “2-ci dərəcəli Vətənə
+                                                        xidmətə görə” ordeni ilə təltif edilmişdir.<br>Ailəlidir, üç
+                                                        övladı var.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20230712095039.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20230712095039.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Azərbayсan Respublikası daxili işlər nazirinin müavini, polis
+                                            general-leytenantı Əliyev İsmət Rəşid oğlu</h2>
+                                    </div>
+
+                                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <div style="text-align: justify;">1959-cu ildə Ermənistan
+                                                        Respublikasının
+                                                        Krasnoselsk rayonunun Əmirxeyir kəndində anadan olmuşdur.
+                                                        1981-ci ildə fərqlənmə diplomu ilə Ç.İldırım adına Azərbaycan
+                                                        Politexnik İnstitutunu, 2010-cu ildə Azərbaycan Respublikası
+                                                        Prezidenti yanında Dövlət İdarəçilik Akademiyasını
+                                                        bitirmişdir.<br>1981-ci ildən daxili işlər orqanlarinda xidmət
+                                                        edir.<br><br>1981-2009-cu illərdə Daxili İşlər Nazirliyinin
+                                                        Dövlət Avtomobil Müfəttişliyi İdarəsinin Təşkilati-analitik
+                                                        bölməsinin dövlət avtomobil müfəttişi, baş dövlət avtomobil
+                                                        müfəttişi, bölmə rəisi, Təbliğat və təşviqat şöbəsinin rəis
+                                                        müavini, idarə rəisinin müavini, Dövlət yol polisi
+                                                        əməkdaşlarının hazırlanması üzrə Tədris Mərkəzinin rəisi, Dövlət
+                                                        Yol Polisi İdarəsinin rəis müavini, Baş Dövlət Yol Polisi
+                                                        İdarəsinin rəis müavini, 2009-cu ildən DİN-in Baş Kadrlar
+                                                        İdarəsinin rəisi vəzifələrində işləmişdir.<br><br>Azərbaycan
+                                                        Respublikası Prezidentinin 2014-cü il 31 oktyabr tarixli 805
+                                                        nömrəli Sərəncamı ilə daxili işlər nazirinin müavini təyin
+                                                        olunmuşdur.<br>Azərbaycan Respublikası Prezidentinin 2010-cu il
+                                                        1 iyul tarixli 987 nömrəli Sərəncamı ilə polis general-mayoru,
+                                                        2015-ci il 1 iyul tarixli 1310 nömrəli Sərəncamı ilə polis
+                                                        general-leytenantı ali xüsusi rütbəsi
+                                                        verilmişdir.<br><br>Azərbaycan Respublikası Prezidentinin
+                                                        2007-ci il 29 iyun tarixli 2280 nömrəli Sərəncamı ilə “Vətən
+                                                        Uğrunda” medalı, 2014-cü il 1 iyul tarixli 598 nömrəli Sərəncamı
+                                                        ilə 3-cü dərəcəli “Vətənə xidmətə görə”, 2018-ci il 29 iyun
+                                                        tarixli 263 nömrəli Sərəncamı ilə 2-ci dərəcəli “Vətənə xidmətə
+                                                        görə” ordenləri ilə təltif olunmuşdur.<br>Ailəlidir. İki övladı
+                                                        var.</div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20211114204930.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20211114204930.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading5" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Azərbaycan Respublikası daxili işlər nazirinin müavini - Daxili Qоşunların
+                                            Kоmandanı general-leytenant Məmmədоv Şahin İsgəndər оğlu</h2>
+                                    </div>
+
+                                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <div style="text-align: justify;">Məmmədov Şahin İsgəndər oğlu 10
+                                                        yanvar 1961-ci
+                                                        ildə Qazax rayonunun Yenikənd kəndində (indiki Ağstafa rayonunun
+                                                        Zəlimxan kəndi) anadan olmuşdur.<br><br>1986-cı ildə SSRİ Daxili
+                                                        İşlər Nazirliyinin Saratov ali hərbi komandanlıq məktəbini və
+                                                        1999-cu ildə Azərbaycan Respublikası Silahlı Qüvvələrinin Hərbi
+                                                        Akademiyasının strateji tədqiqatlar və Dövlət müdafiəsini
+                                                        idarəetmə akademik kursunu bitirmişdir.<br><br>1979-1981-ci
+                                                        illərdə SSRİ Daxili İşlər Nazirliyinin Daxili Qoşunlarında
+                                                        müddətli həqiqi hərbi xidmət keçmişdir.<br><br>1982-1986-cı
+                                                        illərdə SSRİ Daxili İşlər Nazirliyinin Saratov ali hərbi
+                                                        komandanlıq məktəbində təhsil almışdır.<br><br>1986-1992-ci
+                                                        illərdə SSRİ Daxili İşlər Nazirliyinin Daxili Qoşunlarında
+                                                        zastava rəisinin siyasi hissə üzrə müavini, zastava rəisi, tabor
+                                                        komandirinin müavini-qərargah rəisi vəzifələrində xidmət
+                                                        etmişdir.<br><br>1992-ci ildə xidmətini davam etdirmək üçün
+                                                        Azərbaycan Respublikası Daxili İşlər Nazirliyinin Daxili
+                                                        Qoşunlarının Baş İdarəsinin sərəncamına
+                                                        göndərilmişdir.<br><br>1992-1997-ci illərdə Azərbaycan
+                                                        Respublikası Daxili İşlər Nazirliyinin Daxili Qoşunlarında
+                                                        əlahiddə tabor komandiri, briqada komandirinin müavini -
+                                                        qərargah rəisi və alay komandiri vəzifələrində, 1998-ci ildən
+                                                        isə Daxili Qoşunların Baş İdarəsində Qərargah rəisinin müavini,
+                                                        Qərargah rəisinin müavini - Əməliyyat və döyüş hazırlığı
+                                                        İdarəsinin rəisi,&nbsp; Daxili Qoşunların Qərargahı rəisinin
+                                                        1-ci müavini vəzifələrində xidmət etmişdir.<br><br>Azərbaycan
+                                                        Respublikası Prezidentinin 9 mart 2011-ci il tarixli Sərəncamı
+                                                        ilə general-mayor hərbi rütbəsi verilmişdir.<br><br>Azərbaycan
+                                                        Respublikası Prezidentinin 15 noyabr 2013-cü il tarixli
+                                                        Sərəncamı ilə Azərbaycan Respublikası Daxili İşlər Nazirinin
+                                                        müavini - Daxili Qoşunların&nbsp; Komandanı vəzifəsinə təyin
+                                                        olunmuşdur.<br><br>Azərbaycan Respublikası Prezidentinin 11 mart
+                                                        2015-ci il tarixli Sərəncamı ilə general-leytenant hərbi rütbəsi
+                                                        verilmişdir.<br><br>Xidməti-döyüş tapşırıqlarının yerinə
+                                                        yetirilməsində, ictimai qaydanın və ictimai təhlükəsizliyin
+                                                        qorunmasında xüsusilə fərqləndiyinə və xidməti vəzifələrinin
+                                                        icrasında yüksək peşəkarlıq göstərdiyinə görə Azərbaycan
+                                                        Respublikası Prezidentinin 29 iyun 2019-cu il tarixli Sərəncamı
+                                                        ilə "Azərbaycan Bayrağı" və 9 dekabr 2020-ci il tarixli
+                                                        Sərəncamı ilə "Qarabağ" ordenləri, 30 iyun 2002-ci il tarixli
+                                                        Fərmanı ilə "Hərbi xidmətlərə görə" və 10 mart 2012-ci il
+                                                        tarixli Sərəncamı ilə "Vətən uğrunda" medalları&nbsp; ilə təltif
+                                                        olunmuşdur.<br><br>Ailəlidir, üç övladı var.</div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20211114205028.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20211114205028.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading6" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Azərbaycan Respublikasının daxili işlər nazirinin müavini - Baş
+                                            Təşkilat-İnspeksiya İdarəsinin rəisi, polis general-leytenantı Quliyev Fazil
+                                            Balahəsən oğlu</h2>
+                                    </div>
+
+                                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <p style="text-align: justify;">1957-ci ildə Bakı şəhərində anadan
+                                                        olmuşdur.
+                                                        1979-cu ildə Azərbaycan Dövlət Bədən Tərbiyəsi İnstitutunu,
+                                                        1993-cü ildə Bakı Dövlət Universitetinin hüquq fakültəsini
+                                                        bitirmişdir. Silahlı Qüvvələrin sıralarında müddətli həqiqi
+                                                        hərbi xidmət keçmişdir.</p>
+                                                    <p style="text-align: justify;">1983-cü ildən daxili işlər
+                                                        orqanlarında xidmət
+                                                        edir.</p>
+                                                    <p style="text-align: justify;">1983-1989-cu illərdə Nərimanov rayon
+                                                        Daxili İşlər
+                                                        Şöbəsində və Bakı şəhər Daxili İşlər İdarəsinin Qərargahında
+                                                        inspektor, 1990-1999-cu illərdə Bakı şəhəri Daxili İşlər
+                                                        İdarəsinin Qərargahında bölmə rəisi, Qərargah rəisinin müavini,
+                                                        Bakı Şəhər Baş Polis İdarəsinin İqtisadi sahədə cinayətkarlıqla
+                                                        mübarizə İdarəsinin bölmə rəisi, Daxili İşlər Nazirliyinin İşlər
+                                                        İdarəsinin rəis müavini vəzifələrində işləmişdir.</p>
+                                                    <p style="text-align: justify;">1999-cu ildə Təşkilati-İnspektor
+                                                        İdarəsinin
+                                                        rəisi, 2001-ci ildə Baş Təşkilati-İnspektor İdarəsinin rəisi,
+                                                        2013-cü ildə daxili işlər nazirinin müavini - Baş
+                                                        Təşkilat-İnspeksiya İdarəsinin rəisi vəzifəsinə təyin
+                                                        edilmişdir.</p>
+                                                    <p style="text-align: justify;">Cinayətkarlığa qarşı mübarizədə,
+                                                        qanunçuluğun və
+                                                        hüquq qaydasının möhkəmləndirilməsində, ictimai təhlükəsizliyin
+                                                        mühafizəsində xidməti vəzifələri yerinə yetirərkən fərqləndiyinə
+                                                        və xüsusi xidmətlərinə görə müxtəlif mükafatlara layiq
+                                                        görülmüşdür.<br><br>Azərbaycan Respublikası Prezidentinin 30
+                                                        iyun 2002-ci il tarixli 725 nömrəli Fərmanı ilə “Azərbaycan
+                                                        Bayrağı” ordeni, 2013-cü il 1 iyul tarixli Sərəncamı ilə "Vətən
+                                                        uğrunda" medalı, 2015-ci il 1 iyul tarixli 1311 nömrəli
+                                                        Sərəncamı ilə 2-ci dərəcəli "Vətənə xidmətə görə" ordeni ilə
+                                                        təltif olunmuşdur.</p>
+                                                    <p style="text-align: justify;">Azərbaycan Respublikası
+                                                        Prezidentinin 30 iyun
+                                                        2004-cü il tarixli 293 nömrəli Sərəncamı ilə&nbsp; polis
+                                                        general-mayoru, 2014-cü il 1 iyul tarixli 597 nömrəli Sərəncamı
+                                                        ilə polis general-leytenantı ali xüsusi rütbəsi verilmişdir.</p>
+                                                    <p style="text-align: justify;">Ailəlidir. İki övladı var.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20211114205330.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20211114205330.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading7" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Naxçıvan Muxtar Respublikasının daxili işlər naziri, polis general-mayoru
+                                            Neymətov Süleyman Əsgər oğlu</h2>
+                                    </div>
+
+                                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <p style="text-align: justify;">Neymətov Süleyman Əsgər oğlu 1972-ci
+                                                        ildə Naxçıvan Muxtar Respublikasının Babək rayonunun Nehrəm
+                                                        kəndində anadan olmuşdur. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                        &nbsp; &nbsp;<br><br>1991-1993-cü illərdə Silahlı Qüvvələrin
+                                                        sıralarında müddətli həqiqi hərbi xidmət keçmişdir. 2000-ci ildə
+                                                        DİN-in Polis Akademiyasını bitirmişdir.&nbsp;<br><br>1993-cü
+                                                        ildən daxili işlər orqanlarında xidmət
+                                                        edir.&nbsp;<br><br>1993-1994-cü illərdə Naxçıvan şəhər polis
+                                                        şöbəsinin polis nəfəri, 1994-2005-ci ilərdə Azərbaycan
+                                                        Respublikası Daxili İşlər Nazirliyinin Komendant Xidmətinin
+                                                        polis nəfəri, bölmə komandiri, taqım komandiri, bölük
+                                                        komandirinin müavini, baş inspektor, 2005-2013-cü illərdə Nəsimi
+                                                        rayon polis idarəsinin bölük komandiri, rəis müavini,
+                                                        2013-2016-cı illərdə Sumqayıt şəhər polis idarəsinin rəis
+                                                        müavini, 2016-2020-ci illərdə Quba rayon polis şöbəsinin rəisi,
+                                                        2020-2022-ci illərdə Suraxanı rayon polis idarəsinin rəisi
+                                                        vəzifələrində xidmət etmişdir.<br><br>Naxçıvan Muxtar
+                                                        Respublikası Ali Məclisi Sədrinin 2022-ci il 28 dekabr tarixli
+                                                        Sərəncamı ilə Naxçıvan Muxtar Respublikasının daxili işlər
+                                                        naziri vəzifəsinə təyin olunmuşdur.&nbsp;<br>Azərbaycan
+                                                        Respublikası Prezidentinin 2023-cü il 25 iyun tarixli 3945
+                                                        nömrəli Sərəncamı ilə polis general-mayoru ali xüsusi rütbəsi
+                                                        verilmişdir.<br><br>Cinayətkarlığa qarşı mübarizə, ictimai
+                                                        təhlükəsizliyin təmin edilməsi və asayişin qorunması üzrə
+                                                        qarşıya qoyulmuş tapşırıqları yerinə yetirərkən fərqləndiyinə
+                                                        görə Azərbaycan Respublikası Prezidentinin Sərəncamları ilə
+                                                        2002-ci ildə “İgidliyə görə”, 2020-ci ildə “Vətən uğrunda”
+                                                        medalları ilə təltif edilmişdir.<br><br>Ailəlidir, üç övladı
+                                                        var.</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20230712095528.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20230712095528.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading8" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Daxili İşlər Nazirliyinin Baş Cinayət Axtarışı İdarəsinin rəisi polis
+                                            general-mayoru Daşdəmirov Arzu Arif oğlu</h2>
+                                    </div>
+
+                                    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <p style="text-align: justify;">1964-cü ildə Lənkəran şəhərində
+                                                        anadan olmuşdur. 1991-ci ildə Bakı Dövlət Universitetinin Hüquq
+                                                        fakültəsini bitirmişdir. 1982-1984-cü illərdə Silahlı Qüvvələrin
+                                                        sıralarında hərbi xidmət keçmişdir.</p>
+                                                    <div style="text-align: justify;">1992-ci ildən daxili işlər
+                                                        orqanlarında xidmət edir.<br><br></div>
+                                                    <div style="text-align: justify;">1992-2016-cı illərdə Azərbaycan
+                                                        Respublikası Daxili İşlər Nazirliyinin aparatının müxtəlif
+                                                        struktur qurumlarında inspektor, əməliyyat müvəkkili, baş
+                                                        əməliyyat müvəkkili, Baş Cinayət Axtarışı İdarəsinin şöbə rəisi,
+                                                        Baş idarənin rəis müavini vəzifələrində
+                                                        işləmişdir.<br>11.07.2016-cı ildə Daxili İşlər Nazirliyinin Baş
+                                                        Cinayət Axtarışı İdarəsinin rəisi vəzifəsinə təyin
+                                                        olunmuşdur.<br>Azərbaycan Respublikası Prezidentinin 29 iyun
+                                                        2017-ci il tarixli 3040 nömrəli Sərəncamı ilə polis
+                                                        general-mayoru ali xüsusi rütbəsi verilmişdir.</div>
+                                                    <div style="text-align: justify;"><br>Cinayətkarlığa qarşı
+                                                        mübarizədə, qanunçuluğun və hüquq qaydasının
+                                                        möhkəmləndirilməsində, ictimai təhlükəsizliyin mühafizəsində
+                                                        xidməti vəzifələri yerinə yetirərkən fərqləndiyinə görə müxtəlif
+                                                        mükafatlara layiq görülmüşdür. Azərbaycan Respublikası
+                                                        Prezidentinin 2010-cu il 1 iyul tarixli 988 nömrəli Sərəncamı
+                                                        ilə “İgidliyə görə” medalı, 2018-ci il 29 iyun tarixli 263
+                                                        nömrəli Sərəncamı ilə 3-cü dərəcəli “Vətənə xidmətə görə” ordeni
+                                                        ilə təltif edilmişdir.</div>
+                                                    <div style="text-align: justify;">Ailəlidir. İki övladı var.</div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20211114205352.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20211114205352.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading9" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                        <div class="span-icon">
+                                            <span class="accordion-icon"></span>
+                                        </div>
+                                        <h2>Azərbaycan Respublikası DİN-in Baş Mühafizə İdarəsinin rəisi, polis
+                                            general-mayoru Məmmədxanlı Nurullah Abdulla oğlu</h2>
+                                    </div>
+
+                                    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <div style="text-align: justify;">Baş Mühafizə İdarəsinin rəisi,
+                                                        polis
+                                                        general-mayoru Məmmədxanlı Nurullah Abdulla oğlu 1964-cu ildə
+                                                        Balakən rayonunda anadan olmuşdur.</div>
+                                                    <div style="text-align: justify;">&nbsp;</div>
+                                                    <div style="text-align: justify;">1985-ci ildə DİN-in Ali Hərbi
+                                                        Siyasi Məktəbini,
+                                                        2001-ci ildə Moskva Dövlət Klassik Akademiyasının hüquq
+                                                        fakültəsini&nbsp; bitirmişdir.</div>
+                                                    <div style="text-align: justify;">&nbsp;</div>
+                                                    <div style="text-align: justify;">1985-cı ildən daxili işlər
+                                                        orqanlarında xidmətə
+                                                        başlamış və bu müddət ərzində müxtəlif məsul vəzifələrdə
+                                                        çalışmışdır.</div>
+                                                    <div style="text-align: justify;">&nbsp;</div>
+                                                    <div style="text-align: justify;">Müxtəlif illərdə DİN-in Daxili
+                                                        Qoşunlarında
+                                                        bölük, tabor, qərargah rəisi, hərbi hissə komandiri, DQBİ-nin
+                                                        Qərargahının əməliyyat şöbəsinin rəisi, Əlahiddə Çevik Polis
+                                                        Alayının komandirinin 1-ci müavini, Bakı şəhər BPİ-nin İctimai
+                                                        Təhlükəsizlik İdarəsinin rəisi, Bakı şəhər BPİ rəisinin müavini
+                                                        vəzifələrində işləmişdir.</div>
+                                                    <div style="text-align: justify;">&nbsp;</div>
+                                                    <div style="text-align: justify;">2020-ci ilin may ayında Baş
+                                                        Mühafizə İdarəsinin
+                                                        rəisi vəzifəsinə təyin olunmuşdur.</div>
+                                                    <div style="text-align: justify;">&nbsp;</div>
+                                                    <div style="text-align: justify;">Azərbaycan Respublikasının
+                                                        suverenliyi və ərazi
+                                                        bütövlüyü uğrunda – Ağdam, Zəngilan, Füzuli və Ağdərə
+                                                        rayonlarında gedən döyüş əməliyyatlarında iştirak
+                                                        edib.&nbsp;&nbsp;</div>
+                                                    <div style="text-align: justify;">&nbsp;</div>
+                                                    <div style="text-align: justify;">Xidməti-döyüş tapşırıqlarının
+                                                        yerinə
+                                                        yetirilməsində, ictimai qaydanın və ictimai təhlükəsizliyin
+                                                        qorunmasında xüsusilə fərqləndiyinə və xidməti vəzifələrinin
+                                                        icrasında yüksək peşəkarlıq göstərdiyinə görə müxtəlif
+                                                        mükafatlara layiq görülmüşdür.&nbsp;</div>
+                                                    <div style="text-align: justify;">&nbsp;</div>
+                                                    <div style="text-align: justify;">Azərbaycan Respublikası
+                                                        Prezidentinin 30 iyun
+                                                        2002-ci il tarixli 725 nömrəli Fərmanı ilə "Vətən uğrunda"
+                                                        medalı ilə təltif olunmuş, 2020-ci il 1 iyul tarixli 2135
+                                                        nömrəli Sərəncamı ilə polis general-mayoru ali xüsusi rütbəsi
+                                                        verilmişdir.</div>
+                                                    <div style="text-align: justify;">&nbsp;</div>
+                                                    <div style="text-align: justify;">Ailəlidir, iki övladı var.</div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20211114205420.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20211114205420.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading10" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                                        <span class="accordion-icon"></span>
+                                        <h2>Azərbaycan Respublikası DİN-in Baş Narkotiklərlə Mübarizə İdarəsinin rəisi,
+                                            polis general-mayoru Hümbətov İslam Mövsüm oğlu</h2>
+                                    </div>
+
+                                    <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <p style="text-align: justify;">Azərbaycan Respublikası Daxili İşlər
+                                                        Nazirliyinin
+                                                        Baş Narkotiklərlə Mübarizə İdarəsinin rəisi, polis
+                                                        general-mayoru Hümbətov İslam Mövsüm oğlu</p>
+                                                    <p style="text-align: justify;">1964-cü ildə Füzuli rayonu
+                                                        Qaraxanbəyli kəndində
+                                                        anadan olmuşdur. 1989-cu ildə Barnaul Xüsusi Orta Milis
+                                                        Məktəbini, 1995-ci ildə Azərbaycan Respublikası Daxili İşlər
+                                                        Nazirliyinin Polis Akademiyasını bitirmişdir.&nbsp;</p>
+                                                    <p style="text-align: justify;">1982-1984-cü illərdə Silahlı
+                                                        Qüvvələrin
+                                                        sıralarında müddətli həqiqi hərbi xidmət keçmişdir.</p>
+                                                    <p style="text-align: justify;">1985-ci ildən daxili işlər
+                                                        orqanlarında xidmət
+                                                        edir.&nbsp;</p>
+                                                    <p style="text-align: justify;">DİN-in ayrı-ayrı struktur
+                                                        qurumlarında cinayət
+                                                        axtarışı üzrə əməliyyat müvəkkili, Balakən və Saatlı Rayon Polis
+                                                        şöbələrinin cinayət axtarışı bölməsinin rəisi, Cəlilabad və
+                                                        Sabirabad Rayon Polis şöbələrinin rəis müavini, paytaxtın Xəzər,
+                                                        Səbail, Xətai, Yasamal Rayon Polis idarələrinin rəis müavini,
+                                                        Göyçay və Lənkəran şəhər rayon Polis şöbələrinin rəisi
+                                                        vəzifələrində işləmişdir.&nbsp;</p>
+                                                    <p style="text-align: justify;">2019-cu ilin noyabr ayında DİN-in
+                                                        Baş
+                                                        Narkotiklərlə Mübarizə İdarəsinin rəisi vəzifəsinə təyin
+                                                        edilmişdir.&nbsp;&nbsp;</p>
+                                                    <p style="text-align: justify;">Cinayətkarlığa qarşı mübarizədə,
+                                                        ictimai
+                                                        təhlükəsizliyin təmin edilməsində və asayişin qorunmasında
+                                                        qarşıya qoyulmuş tapşırıqları yerinə yetirərkən fərqləndiyinə
+                                                        görə müxtəlif mükafatlara layiq görülmüşdür. Azərbaycan
+                                                        Respublikası Prezidentinin 2008-ci il 1 iyul tarixli 2912
+                                                        nömrəli Sərəncamı ilə “Vətən Uğrunda”, 2018-ci il 29 iyun
+                                                        tarixli 263 nömrəli Sərəncamı ilə “İgidliyə görə” medalları ilə
+                                                        təltif olunmuşdur.&nbsp;</p>
+                                                    <p style="text-align: justify;">Azərbaycan Respublikası
+                                                        Prezidentinin 2 iyul
+                                                        2021-ci il tarixli 2732 nömrəli Sərəncamı ilə polis
+                                                        general-mayoru ali xüsusi rütbəsi verilmişdir.</p>
+                                                    <div>Ailəlidir. Üç övladı var.</div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20211126113513.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20211126113513.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <div class="accordion-header collapsed" id="heading11" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+                                        <span class="accordion-icon"></span>
+                                        <h2>Bakı şəhər Baş Polis İdarəsinin rəisi, polis general-mayoru İsmayılov Əkbər
+                                            Məcid oğlu</h2>
+                                    </div>
+
+                                    <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                                        data-bs-parent="#accordionGov">
+                                        <div class="accordion-body">
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <div style="text-align: justify;">Bakı şəhər Baş Polis İdarəsinin
+                                                        rəisi, polis
+                                                        general-mayoru İsmayılov Əkbər Məcid oğlu<br><br>1963-cü ildə
+                                                        Ermənistan Respublikası, İrəvan şəhərində anadan olmuşdur.
+                                                        1988-ci ildə Vladimir Xüsusi Orta Milis Məktəbini, 1997-ci ildə
+                                                        isə DİN-in Polis Akademiyasını bitirmişdir.&nbsp;<br><br>1985-ci
+                                                        ildən daxili işlər orqanlarında xidmətə başlamış və bu müddət
+                                                        ərzində əməliyyat xidmətində müxtəlif məsul vəzifələrdə
+                                                        işləmişdir. O cümlədən, 2005-2020-ci illərdə Bakı şəhəri
+                                                        Nərimanov RPİ-nin 16-cı PB-nin rəisi və həmin İdarənin əməliyyat
+                                                        işi üzrə rəis müavini, Sumqayıt ŞPİ-nin rəisi, Xətai və Yasamal
+                                                        RPİ-lərinin rəisi, Gəncə şəhər BPİ-nin rəisi vəzifələrində
+                                                        xidmət etmişdir.<br>2020-ci ilin noyabr ayında Bakı Şəhər
+                                                        BPİ-nin rəisi vəzifəsinə təyin olunmuşdur.<br><br>Cinayətkarlığa
+                                                        qarşı mübarizədə, ictimai asayişin mühafizəsində, beynəlxalq
+                                                        əhəmiyyətli kütləvi tədbirlər zamanı ictimai təhlükəsizliyin
+                                                        təmin edilməsində və xüsusi tapşırıqların yerinə yetirilməsində
+                                                        fərqləndiyinə görə Azərbaycan Respublikası Prezidentinin 01 iyul
+                                                        2011-ci il tarixli 1610 nömrəli sərəncamı ilə "İgidliyə görə" və
+                                                        01 iyul 2020-ci il tarixli 602 nömrəli sərəncamı ilə "Vətən
+                                                        uğrunda" medalları ilə təltif edilmişdir.<br><br>
+                                                        <div style="text-align: justify;">Azərbaycan Respublikası
+                                                            Prezidentinin 2
+                                                            iyul 2021-ci il tarixli 2732 nömrəli Sərəncamı ilə polis
+                                                            general-mayoru ali xüsusi rütbəsi verilmişdir.</div>
+                                                        <div><br>Ailəlidir, 3 övladı var.</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <a href="https://mia.gov.az/files/menu/image_20211126113550.jpg"
+                                                        data-fancybox="group1"><img class="img-fluid image"
+                                                            src="./files/menu/image_20211126113550.jpg"
+                                                            style="width: 100%;"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="accordion-bottom">
+                                <a href="javascript:history.go(-1);">Geriyə qayıt</a>
+                                <a class="print-icon no-print" href="#" target="_blank">
+                                    <img src="./src/img/print.png" alt="print" class="print-image" style="width: 100%;">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-call-center">
+            <div class="container">
+                <div class="footer-call-flex">
+                    <div class="footer-flex-2">
+                        <img src="./src/img/phone-hangup.svg" class="footer-call-center-img" alt="call-center-img">
+
+                        <div class="footer-call-center-content">
+                            <p class="footer-call-center-text">
+                                Məlumat mərkəzi:
+                            </p>
+                            <a href="" class="footer-call-center-number">
+                                +994 (12) 590 92 22
+                            </a>
+                        </div>
+                    </div>
+                    <a href class="enrollment">
+                        Qəbula Yazıl
+                    </a>
+                    <a href class="enrollment">
+                        Onlayn Müraciət
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-address">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <p class="footer-text">Ünvan: <span class="footer-span">
+                                Naxçıvan şəhəri, AZ 7000
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <p class="footer-text">Tel: <a href="" class="footer-span">102/ (036) 545-08-03</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <p class="footer-text">
+                            E-mail: <a href="" class="footer-span">E-mail: xxx@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <p class="footer-text"> Faks: <a href="" class="footer-span">(xxx) xxx xx xx</a></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <ul class="footer-social">
+                            <li class="footer-social-li">
+                                <a href="" class="footer-social-li-a"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="footer-social-li">
+                                <a href="" class="footer-social-li-a">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="footer-social-li">
+                                <a href="" class="footer-social-li-a">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+
+                            <li class="footer-social-li">
+                                <a href="" class="footer-social-li-a">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text"> © 2024 Tərtibat və proqramlaşdırma: <a href="#">Naxçıvan Muxtar
+                        Respublikası
+                        Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi</a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap end -->
+    <script src="./src/js/switch-eye.js"></script>
+    <!-- <script src="./src/js/electronic_application.js"></script> -->
+    <!-- <script src="./src/js/site.js"></script> -->
+    <script src="./src/js/map.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>

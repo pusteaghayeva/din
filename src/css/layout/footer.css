@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.footer-call-center {
+    background-color: var(--footer-call-center-bg);
+    width: 100%;
+    height: 172px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-flex-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-call-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--whiteColor);
+
+}
+
+.footer-call-center-img {
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+}
+
+
+.footer-call-center-text {
+    /* color: var(--whiteColor); */
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    /* text-align: left; */
+}
+
+.footer-call-center-number {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--whiteColor);
+}
+
+.footer-call-center-number:hover {
+    color: var(--whiteColor);
+}
+
+.enrollment {
+    background-color: var(--mainColor);
+    display: inline-block;
+    width: 256px;
+    height: 56px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--whiteColor);
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.enrollment:hover {
+    color: var(--mainColor);
+    background-color: var(--whiteColor);
+}
+
+footer {
+    background-color: var(--navbarBg);
+    width: 100%;
+}
+
+footer .bottom-details {
+    width: 100%;
+}
+
+footer .bottom-details .bottom_text {
+    max-width: 1250px;
+    margin: auto;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    color: var(--whiteColor);
+}
+
+.bottom-details .bottom_text a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+.bottom-details .bottom_text a {
+    margin-right: 10px;
+}
+
+.footer-address {
+    padding-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+    color: var(--whiteColor);
+    margin-right: 20px;
+}
+
+.footer-span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--whiteColor);
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-span:hover {
+    color: var(--whiteColor);
+    text-decoration: underline;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.footer-social-li {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.footer-social-li-a i {
+    color: var(--whiteColor);
+    transition: all .9s ease-in-out;
+}
+
+
+.footer-social-li-a:hover i {
+    color: var(--whiteColor);
+    transform: scale(1.08);
+    transform: rotateY(360deg);
+}
+
+.copyright {
+    margin: 0 auto;
+    text-align: center;
+    color: var(--whiteColor);
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.copyright-link {
+    color: var(--whiteColor);
+    transition: all .5s ease-in-out;
+}
+
+.copyright-link:hover {
+    color: var(--whiteColor);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footer-address {
+        padding-top: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer-text {
+        margin: 6px auto;
+    }
+
+    .footer-social-li {
+        font-size: 22px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-text {
+        text-align: left;
+    }
+
+    .footer-social-li {
+        font-size: 20px;
+    }
+
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-text {
+        text-align: left;
+    }
+
+    .footer-social {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin: 16px 0;
+    }
+
+    .footer-social-li {
+        font-size: 17px;
+    }
+
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

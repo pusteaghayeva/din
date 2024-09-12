@@ -1,0 +1,300 @@
+.select-map path {
+  fill: white;
+  stroke: rgb(30, 191, 227);
+  stroke-width: 2;
+}
+
+.map-button {
+  font-size: 12px !important;
+  text-decoration: none;
+  color: #001D3E !important;
+  padding: 5px 15px !important;
+  border: 2px solid #1EBFE3 !important;
+  box-sizing: border-box !important;
+  border-radius: 20px !important;
+  float: left;
+  margin-bottom: 13px !important;
+  margin-right: 8px !important;
+  transition: 0.3s !important;
+  background-color: #fff;
+  text-transform: capitalize !important;
+  opacity: 1 !important;
+}
+
+.map-button:hover {
+  background-color: #1EBFE3 !important;
+  color: #fff !important;
+}
+
+.no-map-select {
+  position: absolute;
+  top: 400px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (max-width: 768px) {
+
+  .no-map-select {
+    position: absolute;
+    bottom: 0 !important;
+    right: 0px;
+    top: auto;
+  }
+
+
+  /* .full-width-sidebar {
+    display: none;
+  }
+
+
+
+  .navbar-nav {
+    padding-top: 20px;
+  } */
+
+
+}
+
+
+.bg-white {
+  background: #fff;
+  z-index: 10;
+  position: relative;
+}
+
+/* 
+
+.gov-services-inside__content h2 {
+  font-size: 30px;
+  line-height: 34px;
+  color: #001D3E;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.gov-services-inside__content p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #001D3E;
+  font-weight: 400;
+}
+
+.gov-services-inside__content ul {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.gov-services-inside__content ul li {
+  font-size: 16px;
+  line-height: 25px;
+  color: #001D3E;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.gov-services-inside__content ul li:before {
+  width: 16px;
+  height: 8px;
+  content: "";
+  display: inline-block;
+  background-image: url("../icons/right-icon-blue.svg");
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+.gov-services-inside__content a {
+  color: #1EBFE3;
+}
+
+.gov-services-inside__form button {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #001D3E;
+  opacity: 0.3;
+  font-weight: 700;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+  border-radius: 0 !important;
+}
+
+.gov-services-inside__form button:hover {
+  opacity: 1;
+  color: #001D3E;
+  background-color: transparent;
+  border-bottom: 3px solid #1EBFE3;
+}
+
+.gov-services-inside__form button.active {
+  opacity: 1;
+  color: #001D3E !important;
+  background-color: transparent !important;
+  border-bottom: 3px solid #1EBFE3;
+}
+
+.gov-services-inside__form .nav {
+  justify-content: space-between;
+  border-bottom: 1px solid #F2F2F2;
+} */
+
+
+.services__tab__content {
+  padding-top: 30px;
+}
+
+.services__tab__content p {
+  font-size: 20px;
+  line-height: 26px;
+  color: #001D3E;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+
+
+.contact-map {
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.contact-map .nav {
+  justify-content: flex-start;
+  position: relative;
+}
+
+.contact-map .nav .nav-item .nav-link {
+  min-width: 400px;
+  text-align: left;
+}
+
+.contact-map .low-content-search-input {
+  background-color: #fff;
+}
+
+.contact-map .services__tab__content {
+  padding-top: 0;
+}
+
+.contact-map .city-list {
+  margin-top: 40px;
+}
+
+.contact-map .city-list .city-item a {
+  color: #011C4C;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  width: 85%;
+  border-bottom: 1px solid #E6E6E6;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-map .select-map {
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-map .select-map svg {
+  margin-top: -100px;
+}
+
+.contact-map .select-map svg path {
+  cursor: pointer;
+}
+
+.contact-map .select-map svg path:hover {
+  fill: #1EBFE3;
+}
+
+.contact-map .select-map svg path:focus {
+  outline: 0;
+}
+
+
+.city-modal {
+  width: 600px;
+  background-color: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  margin: 0 auto;
+  padding: 32px;
+  display: none;
+  z-index: 91 !important;
+}
+
+.city-modal h2 {
+  font-size: 28px;
+  color: #1EBFE3;
+  font-weight: 700;
+}
+
+.city-modal-text {
+  color: #001D3E !important;
+  font-size: 14px !important;
+}
+
+.city-modal .map-phone-icon {
+  width: 36px;
+  height: 36px;
+  background-image: url("../icons/map-phone-icon.svg");
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.city-modal .map-fax-icon {
+  width: 36px;
+  height: 36px;
+  background-image: url("../icons/fax-icon-map.svg");
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.city-modal .map-mail-icon {
+  width: 36px;
+  height: 36px;
+  background-image: url("../icons/mail-icon-map.svg");
+  display: inline-block;
+  margin-right: 14px;
+}
+
+.city-modal .map-close-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../icons/close-icon-map.svg");
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+}
+
+.city-modal .point-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.city-modal .point-info-item-desc p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #001D3E;
+  margin-bottom: 0;
+}
+
+/* map */
+.modal-second-line {
+  font-size: 19px !important;
+  color: #015A6E !important;
+  margin-bottom: 20px;
+}

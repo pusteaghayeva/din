@@ -76,6 +76,10 @@ a {
   transform: rotate(-135deg);
 }
 
+.navbar-toggler-icon {
+  background-image: url('../../img/navbar.jpg');
+}
+
 /* back to top */
 .header-section {
   background-color: var(--navbarBg);
@@ -455,9 +459,43 @@ button:focus:not(:focus-visible) {
     margin-top: 0;
     margin-left: 0.125em;
   }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 5px;
+    background-color: var(--mainColor);
+    transform: scaleX(0);
+    transform-origin: right center;
+    z-index: 99;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+
 }
 
+
 @media screen and (max-width: 768px) and (min-width: 576px) {
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 5px;
+    background-color: var(--mainColor);
+    transform: scaleX(0);
+    transform-origin: right center;
+    z-index: 99;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+
   .call-center-small {
     display: none;
   }
@@ -541,6 +579,22 @@ button:focus:not(:focus-visible) {
 }
 
 @media screen and (max-width: 576px) and (min-width: 320px) {
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 5px;
+    background-color: var(--mainColor);
+    transform: scaleX(0);
+    transform-origin: right center;
+    z-index: 99;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+
   .header-section {
     flex-direction: column;
     height: auto;
@@ -652,28 +706,12 @@ button:focus:not(:focus-visible) {
 
 @media screen and (max-width: 1400px) and (min-width: 1200.0001px) {
   .nav-item {
-    padding: 0 10px;
+    padding: 0 18px;
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 1024.0001px) {
-  .nav-right {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 0%;
-  }
 
-  .nav-item {
-    padding: 0 10px;
-  }
-
-  .navbar-nav .nav-item .nav-link {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 992.00001px) {
+@media screen and (max-width: 1200px) and (min-width: 992.00001px) {
   .nav-item {
     padding: 0;
   }
@@ -683,7 +721,7 @@ button:focus:not(:focus-visible) {
   }
 
   .nav-item {
-    padding: 0 10px;
+    padding: 0 9px;
   }
 
   .dropdown-item {
@@ -693,7 +731,7 @@ button:focus:not(:focus-visible) {
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
   .nav-item {
-    padding: 10px 36px 0;
+    padding: 10px 26px 0;
   }
 
   .call-center-small {

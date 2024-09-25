@@ -1,0 +1,16 @@
+.select-contact-method{
+    padding: 30px 0 70px 0;
+}
+.agree-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-agree{
+    background: var(--accordionBg);
+}
+.btn-agree:hover {
+    background: var(--footer-call-center-bg);
+    border: none;
+    color: var(--whiteColor);
+}

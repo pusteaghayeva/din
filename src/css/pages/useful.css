@@ -1,0 +1,68 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.useful-low {
+  background-color: #f2f2f2;
+}
+
+.useful-faq-blog {
+  position: relative;
+  border: 1px solid var(--faqBorder);
+  background-color: var(--whiteColor);
+  padding: 15px;
+  border-radius: 4px;
+  transition: all 0.4s ease-in-out;
+  margin: 10px 0;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.useful-faq-blog:hover {
+  border: 1px solid #1ebfe3;
+  background-color: #f5fdff;
+  transform: scale(1.02);
+}
+
+.useful-faq-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.useful-faq-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.useful-faq-text {
+  color: #011c4c;
+  font-size: 13px;
+  font-weight: 700;
+}
+.useful-faq-span i {
+  color: var(--quoteTextColor);
+  font-size: 16px;
+}
+.useful-main-title {
+  margin: 40px 0 5px;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--usefulTitle);
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .useful-faq-blog {
+    height: auto;
+    /* background-color: yellow; */
+  }
+}

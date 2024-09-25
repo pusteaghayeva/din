@@ -393,7 +393,6 @@ body .loader img {
     display: flex;
     align-items: center;
     justify-content: start;
-    /* background-color: red; */
     color: var(--newsTextColor);
 }
 
@@ -404,7 +403,6 @@ body .loader img {
 .news-dark-content {
     display: block;
     color: var(--newsTextColor);
-    /* background-color: yellow; */
 }
 
 .news-dark-content:hover {
@@ -412,7 +410,6 @@ body .loader img {
     text-decoration: underline;
 }
 
-/* asasasasas */
 .all-news-title {
     margin: 50px 0;
     font-size: 30px;
@@ -1080,6 +1077,7 @@ html {
 .show-accessibility .container-eye {
     display: block;
     background-color: var(--firstBgcolor);
+    padding-top: 10px;
 }
 
 [type=button]:not(:disabled),

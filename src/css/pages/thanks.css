@@ -1,0 +1,71 @@
+.thanks-form {
+    padding: 60px 0;
+}
+
+.electron-form-inside-title {
+    display: flex;
+    align-items: center;
+}
+
+.thanks-letter {
+    font-size: 30px;
+    color: var(--newsColor);
+    font-weight: 600;
+}
+
+.thanks-form-group {
+    display: block;
+}
+
+.custom-form-group .form-group-elements select {
+    width: 113px;
+    margin-right: 10px;
+}
+
+.electron-form-inside .form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-group-elements {
+    display: flex;
+}
+
+#step-1,
+#step-2,
+#step-3 {
+    margin: 15px 0;
+}
+
+.thanks-form-group2 {
+    margin: 15px 0;
+}
+
+.birth-date {
+    margin: 15px 0;
+}
+
+.thanks-form-inline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-thanks {
+    padding: 10px 40px;
+    background-color: var(--accordionName);
+    color: var(--whiteColor);
+}

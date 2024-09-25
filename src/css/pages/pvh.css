@@ -1,0 +1,29 @@
+.pvh-blog{
+   margin-bottom: 50px;
+}
+.pvh-main-title{
+    margin: 60px 0 5px;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--firstBgcolor);
+}
+
+.pvh-ul{
+    margin: 15px 0;
+    padding: 0;
+}
+.pvh-list{
+    margin: 10px 0;
+    padding: 5px;
+    height: auto;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+.pvh-title{
+    color: var(--usefulTitle);
+}
+
+.pvh-title:hover{
+    color: var(--electronicApp);
+    text-decoration: underline;
+}

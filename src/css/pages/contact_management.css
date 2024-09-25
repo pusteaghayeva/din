@@ -1,0 +1,131 @@
+.lead-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--faqBorder);
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.lead-box-phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lead-box-phone2{
+    width: 24%;
+}
+.empty-column {
+    width: 100%;
+    visibility: hidden;
+}
+
+.lead-box-phone-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.contact-phone-call {
+    margin-left: 10px;
+    color: var(--newsColor);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-phone-call:hover {
+    color: var(--newsColor);
+}
+
+.lead-name {
+    margin: 20px 0;
+}
+
+.contact-phone-call2 {
+    display: block;
+    margin-left: 10px;
+    color: var(--newsColor);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-phone-call2:hover {
+    color: var(--newsColor);
+}
+
+.room-flex-p {
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    .select-contact-item {
+        height: 300px;
+    }
+
+    .contact-image {
+        text-align: center;
+        display: flex;
+    }
+    .room-flex-p{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+
+    .lead-box {
+        display: block;
+    }
+
+    .lead-box-phone {
+        margin: 12px 0;
+    }
+    .room-flex-p{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.contact-lead {
+    margin-top: 35px;
+  }
+  .contact-lead h2 {
+    font-size: 30px;
+    line-height: 34px;
+    color: #001D3E;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .contact-lead-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+  .contact-lead-box__text {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-lead-box__text p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #011C4C;
+    margin-bottom: 3px;
+  }
+  .contact-lead-box__text span {
+    color: #011C4C;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.45;
+  }
+  .contact-lead-box__icons {
+    display: flex;
+  }
+  .contact-lead .box__icon {
+    margin-left: 30px;
+    width: 200px;
+  }

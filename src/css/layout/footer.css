@@ -35,11 +35,9 @@
 
 
 .footer-call-center-text {
-    /* color: var(--whiteColor); */
     font-family: inherit;
     font-size: 20px;
     font-weight: 400;
-    /* text-align: left; */
 }
 
 .footer-call-center-number {
@@ -88,13 +86,21 @@ footer .bottom-details .bottom_text {
     margin: auto;
     padding: 12px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+}
+.footer-menu-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-menu-a{
+    font-size: 14px;
 }
 
 .bottom-details .bottom_text span,
 .bottom-details .bottom_text a {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 32px;
     text-align: center;
@@ -109,6 +115,7 @@ footer .bottom-details .bottom_text {
 
 .bottom-details .bottom_text a {
     margin-right: 10px;
+
 }
 
 .footer-address {
@@ -153,13 +160,13 @@ footer .bottom-details .bottom_text {
     font-size: 24px;
 }
 
-.footer-social-li-a i {
+.footer-social-li i {
     color: var(--whiteColor);
     transition: all .9s ease-in-out;
 }
 
 
-.footer-social-li-a:hover i {
+.footer-social-li:hover i {
     color: var(--whiteColor);
     transform: scale(1.08);
     transform: rotateY(360deg);
@@ -210,6 +217,21 @@ footer .bottom-details .bottom_text {
     .copyright {
         font-size: 14px;
     }
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .footer-call-center-number {
+        font-size: 20px;
+    }
+
+    .enrollment {
+        padding: 10px;
+        width: auto;
+        font-size: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -225,6 +247,16 @@ footer .bottom-details .bottom_text {
     .bottom-details .bottom_text a {
         font-size: 16px;
         line-height: 26px;
+    }
+
+    .footer-call-center-number {
+        font-size: 20px;
+    }
+
+    .enrollment {
+        padding: 10px;
+        width: auto;
+        font-size: 18px;
     }
 }
 
@@ -248,5 +280,35 @@ footer .bottom-details .bottom_text {
     .bottom-details .bottom_text a {
         font-size: 15px;
         line-height: 20px;
+    }
+
+    .footer-call-center {
+        display: block;
+        height: auto;
+    }
+
+    .footer-call-flex {
+        display: block;
+    }
+
+    .footer-call-center-number {
+        font-size: 18px;
+    }
+
+    .footer-call-center-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .enrollment {
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    .footer-flex-2 {
+        justify-content: center;
+    }
+    .press-sidebar{
+        margin: 30px 0;
     }
 }

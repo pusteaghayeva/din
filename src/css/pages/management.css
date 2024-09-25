@@ -16,6 +16,25 @@
     color: #fff;
 }
 
+.container-gallery .card {
+    border: none;
+}
+
+.card-image {
+    margin: 0 auto;
+}
+
+.card-image a {
+    border: none;
+}
+
+.card-image a img {
+    width: 100%;
+    min-height: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
 @media (max-width: 768px) {
     .full-width-sidebar {
         display: none;
@@ -43,12 +62,12 @@
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: 700;
-    color: #001D3E;
+    color: var(--newsColor);
 }
 
 .contact-sidebar ul li a {
     font-size: 14px;
-    color: #7A8FA7;
+    color: var(--menuColor);
     font-weight: 400;
     text-decoration: none;
     position: relative;
@@ -94,13 +113,12 @@
     padding-left: 15px;
 }
 
+* {
+    font-family: "Roboto", sans-serif;
+
+}
+
 .ministry-content h2 {
-    /* font-weight: 700;
-    font-size: 30px;
-    line-height: 34px;
-    color: #001D3E;
-    margin-top: 50px;
-    margin-bottom: 30px; */
     font-size: 30px;
     font-weight: 700;
     color: var(--newsColor);
@@ -112,7 +130,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
-    color: #001D3E;
+    color: var(--newsColor);
 }
 
 .ministry-content .faq {
@@ -130,7 +148,6 @@
     width: 50%;
     position: absolute;
     left: 0;
-    background-color: #F2F2F2;
     z-index: 9;
 }
 
@@ -184,7 +201,6 @@
     line-height: 18px;
     color: var(--accordionName);
     font-weight: 700;
-    /*max-width: 640px;*/
 }
 
 .custom-accordion .accordion-header .accordion-icon {
@@ -227,12 +243,6 @@
 }
 
 .ministry-content p {
-    /* font-weight: 300;
-    font-size: 16px;
-    line-height: 25px;
-    color: #001D3E;
-    margin-top: 15px;
-    margin-bottom: 15px; */
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -249,7 +259,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    color: #001D3E;
+    color: var(--newsColor);
     display: block;
     border-bottom: 1px solid #F2F2F2;
     padding-bottom: 20px;
@@ -279,7 +289,8 @@
 
 .accordion-bottom {
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
+    align-items: center;
     justify-content: space-between;
     margin: 27px 0;
 }
@@ -289,10 +300,23 @@
     font-weight: 300;
     text-align: left;
     color: var(--accordionName);
+    text-decoration: underline;
 }
 
 .print-image {
     width: 100%;
     height: 80px;
     object-fit: cover;
+}
+
+.contact-sidebar ul li:first-child {
+    margin-bottom: 10px;
+}
+
+.services-sidebar-render .parent-menus-render a {
+    margin-bottom: 5px;
+    font-size: 16px !important;
+    font-weight: 700;
+    color: var(--newsColor) !important;
+    transition: 0.5s;
 }

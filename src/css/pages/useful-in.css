@@ -1,0 +1,15 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.useful-in-main-title {
+  margin: 20px 0;
+  font-family: inherit;
+}
+.useful-in-content {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--newsColor);
+}

@@ -1,16 +1,36 @@
-@import url('./font.css');
-@import url('./variable.css');
-
-
+@import url("./font.css");
+@import url("./variable.css");
 
 /* layout */
 
-@import url('layout/header.css');
-@import url('./layout/footer.css');
+@import url("layout/header.css");
+@import url("./layout/footer.css");
 
 /* pages */
-@import url('./pages/home.css');
-@import url('./pages/map.css');
-@import url('./pages/management.css');
-
-@import url('./pages/electronic_application.css');
+@import url("./pages/home.css");
+@import url("./pages/map.css");
+@import url('./pages/msy.css');
+@import url("./pages/management.css");
+@import url("./pages/structure.css");
+@import url("./pages/history.css");
+@import url("./pages/static.css");
+@import url("./pages/press_releases.css");
+@import url("./pages/singlePressRelize.css");
+@import url("./pages/interviews.css");
+@import url("./pages/criminal_chronicle.css");
+@import url("./pages/singleCriminalChronicle.css");
+@import url("./pages/dx.css");
+@import url("./pages/thanks.css");
+@import url("./pages/vp.css");
+@import url("./pages/pvh.css");
+@import url("./pages/vacancies.css");
+@import url("./pages/faq.css");
+@import url("./pages/legislation.css");
+@import url("./pages/useful.css");
+@import url("./pages/useful-in.css");
+@import url("./pages/contact.css");
+@import url("./pages/electronic_application.css");
+@import url("./pages/contact_management.css");
+@import url("./pages/electron.css");
+@import url("./pages/reception.css");
+/* @import url("./pages/dsh.css"); */

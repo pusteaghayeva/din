@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/img/logo.ico" type="image/x-icon">
+    <title>NMR Daxili İşlər Nazirliyi</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- bootstrap end -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <button class="scroll-top">
+        <div class="arrow up"></div>
+    </button>
+
+
+    <div class="container-eye">
+        <div class="container ">
+
+            <header>
+                <div id="accessibility" class="font-slider-container">
+                    <div class="font-slider-controls">
+                        <span class="font-small" data-action="-">A</span>
+                        <span class="font-large" data-action="+">A</span>
+                    </div>
+                    <div class="font-slider">
+                        <input type="range" class="font-slider__range" min="8" max="18" value="12">
+                        <span class="range-min font-small">A</span>
+                        <span class="range-max font-large">A</span>
+                    </div>
+                </div>
+                <section>
+                    <div class="bg-flex">
+                        <button class="blue" class="button-reset"><i class="fa-solid fa-circle-dot"></i></button>
+                        <button class="green" class="button-reset"><i class="fa-solid fa-circle-dot"></i></button>
+                        <br />
+                        <button id="reset" class="button-reset"><i class="fa-solid fa-circle-dot"></i></button>
+                    </div>
+                </section>
+            </header>
+        </div>
+    </div>
+
+    <header>
+        <div class="language-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-3 col-xl-4">
+                        <p class="date-blog" id="date-blog"></p>
+                    </div>
+                    <div class="col-sm-12 col-md-9 col-lg-9 col-xl-8">
+                        <div class="row">
+                            <div class="col-8 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+
+                                <div class="switch-eye">
+                                    <span>Görmə çətinliyi olanlar üçün:</span>
+                                    <a href="?limited/az/mainpage//"><img src="./src/img/switch-eye.svg"
+                                            class="switch-eye-img" alt="eye" id="toggle-eye-icon"></a>
+                                </div>
+
+
+                            </div>
+                            <div class="col-4 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                                <div class="dropdown">
+                                    <button class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        AZ <i class="fa-solid fa-chevron-down down-icon"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">EN</a></li>
+                                        <li><a class="dropdown-item" href="#">RU</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="col-5 col-sm-6 d-md-none d-lg-block col-lg-3 col-xl-3">
+                                <div class="header-social-link">
+                                    <ul class="header-social-ul">
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-youtube"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-7 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                                <div class="search-blog">
+                                    <form class="form-inline">
+                                        <input class="form-control mr-sm-2" type="search" placeholder=""
+                                            aria-label="Search">
+                                        <button class="btn  my-2 my-sm-0 btn-search" type="submit"><img
+                                                src="./src/img/search.svg" class="search-img" alt=""></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="header-section">
+            <a href="index.html" class="header-logo" id="resetLink">
+                <img src="./src/img/logo-az.png" alt="header-img" class="header-img">
+            </a>
+            <div class="header-call-center">
+                <img src="./src/img/call.svg" class="call-img" alt="phone-img">
+                <p class="call-center-small">Zəng mərkəzi:</p>
+                <a href="tel:+102" class="call-center-big">102</a>
+                <a href="./electronic_application.html" class="online-btn">ONLAYN MÜRACİƏT</a>
+            </div>
+        </div>
+
+        <div class="main-navbar">
+            <nav class="navbar navbar-expand-lg header-nav">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" id="home" href="index.html">Əsas səhifə</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="ministry" href="management.html">Nazirlik</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="media" href="press_releases.html">Mətbuat Xidməti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="dx" href="dx.html">Dövlət Xidmətləri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="vp" href="vp.html">Vətəndaş və Polis</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="legislation" href="legislation.html">Qanunvericilik</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="useful" href="useful.html">Faydalı</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact" href="contact.html">Əlaqə</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="faq">
+            <div class="full-width-sidebar">
+            </div>
+            <div class="container">
+                <div class="ministry-layout">
+                    <div class="row">
+                        <div class="col-md-3 contact-sidebar police-sidebar">
+                            <ul id="sidebar-list">
+                                <li>Vətəndaş və polis</li>
+                                <li><a href="">Polisin etik davranış kodeksi</a></li>
+                                <li><a href="">Etik davranış üzrə illik hesabat</a></li>
+                                <li><a href="">Polis və vətəndaş həmrəyliyi</a></li>
+                                <li><a href="" class="active">Polisə verilən suallar</a></li>
+                            </ul>
+                            <ul id="sidebar-list">
+                                <li>Polisə təşəkkürlər</li>
+                                <li><a href="">Təşəkkür et</a></li>
+                                <li><a href="">Təşəkkür məktubları</a></li>
+                            </ul>
+                            <ul id="sidebar-list">
+                                <li>Xidmətə qəbul</li>
+                                <li><a href="">Vakansiyalar və müsabiqələr</a></li>
+                                <li><a href="">Xidmətə qəbul haqqında</a></li>
+                            </ul>
+                            <ul id="sidebar-list">
+                                <li>Axtarışda olanlar</li>
+                                <li><a href="">Nəqliyyat vasitələri</a></li>
+                            </ul>
+                            <ul id="sidebar-list">
+                                <li>Fəaliyyət planları</li>
+                                <li><a href="">Açıq Hökumətin təşviqi</a></li>
+                                <li><a href="">Korrupsiyaya qarşı mübarizənin
+                                        gücləndirilməsinə dair</a></li>
+                            </ul>
+                            <ul id="sidebar-list">
+                                <li>Apellyasiya Şurası</li>
+                                <li><a href="">Apellyasiya Şurası haqqında</a></li>
+                                <li><a href="">Apellyasiya Şurasının tərkibi və
+                                        katibliyi</a></li>
+                                <li><a href="">Apellyasiya Şurasının məlumatları</a></li>
+                            </ul>
+
+                        </div>
+                        <div class="col-md-9">
+                            <div class="ministry-content">
+                                <h2>Polisə verilən suallar</h2>
+
+                                <div class="accordion custom-accordion" id="accordionGov">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading1" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Nəqliyyat vasitəsinin texniki baxışdan keçmə qaydalarını öyrənmək
+                                                istəyirəm.</h2>
+                                        </div>
+
+                                        <div id="collapse1" class="accordion-collapse collapse"
+                                            aria-labelledby="heading1" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Bildiririk ki, Azərbaycan Respublikasının Yol Hərəkəti Haqqında
+                                                        Qanunun 30-cu maddəsinin VI bəndinin tələblərinə uyğun olaraq,
+                                                        minik avtomobilləri istehsal olduğu vaxtdan dörd il keçdikdə -
+                                                        iki ildə bir dəfə, - istehsal olunduğu vaxtdan on il keçdikdə -
+                                                        ildə bir dəfə avtobuslar, icazə verilən maksimum kütləsi 3.5
+                                                        tondan artıq olan yük avtonəqliyyat vasitələri, təhlükəli
+                                                        yüklərin daşinması üçün xüsusi təyinatlı texniki təhlükəsizlik
+                                                        üzrə uyğunluq sertifikatı olan nəqliyyat vasitələrinə isə
+                                                        istehsal olunduğu vaxtdan ildə bir dəfə dövlət texniki baxışa
+                                                        təqdim olunmalıdır.
+                                                        Eyni zamanda məlumat üçün bildiririk ki, Azərbaycan
+                                                        Respublikasının Yol hərəkəti haqqında Qanununa 29 iyun 2018-ci
+                                                        il tarixdə 1220-VQD nömrəli əlavə və dəyişikliklər edilmişdir.
+                                                        Belə ki, bu Qanunun 30-cu maddəsinin VI hissəsinə əsasən
+                                                        «Növbəti texniki baxışın keçiriləcəyi gün müəyyən edilərkən bu
+                                                        maddənin VI hissəsində nəzərdə tutulmuş müddətlər əvvəlki
+                                                        texniki baxışın keçirildiyi gündən hesablanır, nəqliyyat
+                                                        vasitəsinin növbəti texniki baxışının keçiriləcəyi gündən 20 gün
+                                                        ərzində texniki baxışdan keçirilməməsi Azərbaycan
+                                                        Respublikasının İnzibati Xətalar Məcəlləsi ilə müəyyən edilmiş
+                                                        qaydada məsuliyyətə səbəb olur».
+                                                        Yeni qanunvericiliyə əsasən texniki baxış zamanı avtomobilinizi
+                                                        saz vəziyyətdə texniki müayinədən keçirib və barənizdə qanuni
+                                                        qüvvəyə minmiş və icrası təxirə salınmamış və ya icrasına möhlət
+                                                        verilməmiş cərimələr ödənildikdə, icbari sığorta şəhadətnaməsini
+                                                        və 20 manat dövlət rüsumunun qəbzini təqdim olunması nəzərdə
+                                                        tutulmuşdur.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading2" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Avtomobilimin işıq cihazlarında dəyişiklik edə bilərəmmi?</h2>
+                                        </div>
+
+                                        <div id="collapse2" class="accordion-collapse collapse"
+                                            aria-labelledby="heading2" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Nəqliyyat vasitələri və onların hər bir ehtiyyat hissəsi müəyyən
+                                                        sınaqlar nəticəsində təsdiq olunmuş beynəlxalq standartlar
+                                                        əsasında istehsal olunur. Avtomobil birmənalı olaraq "təhlükəli
+                                                        hərəkət mənbəyi" hesab olunduğu üçün onun üzərində istehsalçı
+                                                        zavod tərəfindən nəzərdə tutulmayan hər hansı bir dəyişiklik
+                                                        gələcəkdə ağır nəticəli yol-nəqliyyat hadisəsinin baş veməsinə
+                                                        real zəmin yaratmış olur. Araşdırmalar göstərir ki, "Led" tipli
+                                                        işıqdiodlu lampalar avtomobilin hərəkəti zamanı yola düzgün işıq
+                                                        vurmur, xüsusən də uzaq məsafə rejimində daha çox təhlükə
+                                                        yaradır. "Yol hərəkəti haqqında" Qanunun 1 saylı əlvəsinin
+                                                        III-cü bəndinin tələblərinə görə xarici işıq cihazlarının
+                                                        miqdarı, tipi, rəngi, yerləşməsi və iş rejimi nəqliyyat
+                                                        vasitəsinin konstruksiyasına uyğun olmadıqda onun istismarı
+                                                        məqsədəmüvafiq deyildir.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading3" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Nəqliyyat vasitəsinin üzərində reklam yerləşdirmək istəyirəm. Bunun üçün
+                                                nə etmək lazımdır?</h2>
+                                        </div>
+
+                                        <div id="collapse3" class="accordion-collapse collapse"
+                                            aria-labelledby="heading3" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Qüvvədə olan normativ hüquqi sənədlərin tələbinə uyğun olaraq
+                                                        nəqliyyat vasitələrində reklamın yerləşdirilməsi üçün:
+                                                        Razılıq almaq üçün ərizə (əlavə 1)
+                                                        Ərizədə aşağıdakılar öz əksini tapmalıdır:
+                                                        - Hüquqi şəxslər üçün – hüquqi şəxsin adı, təşkilati hüquqi
+                                                        forması, hüquqi ünvanı;
+                                                        - Fiziki şəxslər üçün – adı, atasının adı, soyadı, şəxsiyyəti
+                                                        təstiq edən vəsiqə haqqında məlumatlar (seriya, nömrə, nə vaxt
+                                                        və kim tərəfindən verilmişdir, ünvanı, iş yeri);
+                                                        Ərizəyə aşağıdakılar əlavə edilməlidir:
+                                                        - Müəssisənin təsis sənədlərinin surəti;
+                                                        - Müəssisənin dövlət qeydiyyatı haqqında şəhadətnaməsinin
+                                                        surəti;
+                                                        - Sahibkarlıq fəaliyyəti ilə məşğul olan fiziki şəxslərin vergi
+                                                        organları tərəfindən uçota alınması haqqında şəhadətnamənin
+                                                        surəti;
+                                                        - Reklam verənlə bağlanmış və mövcud qanunvericiliyə uyğun
+                                                        sənədləşdirilmiş müqavilənin sürəti (reklam verən reklam yayan
+                                                        kimi çıxış etdikdə və reklam yayılan nəqliyyat vasitəsinin
+                                                        mülkiyyətçisi olduqda müqavilə tələb olunmur);
+                                                        - Nəqliyyat vasitəsinin qeydiyyat şəhadətnaməsi və surəti;
+                                                        - Nəqliyyat vasitəsində yerləşdiriləcək reklamın məzmunu, cizgi
+                                                        təsviri və sxemi;
+                                                        - Nəqliyyat vasitəsinin texniki cəhətdən sazlığı və xarici
+                                                        görkəminin reklam yerləşdirilməsi üçün yaralı olması barədə
+                                                        DYP-nin müayinə aktı;
+                                                        - Reklamın yerləşdirilməsi planlaşdırılan nəqliyyat
+                                                        vasitələrinin dövlət qeydiyyat nişanları göstərilməklə siyahısı;
+                                                        Eyni zamanda bildiririk ki, 15 may 2015-ci il tarixdə qəbul
+                                                        olunmuş «Reklam haqqında» Qanunun 25.5-ci maddəsinin tələbinə
+                                                        görə şəxsə mənsubiyyətini göstərən fərqləndirici nişanların
+                                                        nəqliyyat vasitəsi üzərində yerləşdirilməsi reklam hesab
+                                                        olunmur.
+                                                        Bu səbəbdən atomobillərinizdə (şəkilləri, sxemləri) Baş DYP
+                                                        İdarəsinin Avtotexniki müfəttişlik şöbəsinə təqdim etdiyiniz
+                                                        təqdirdə xahişinizə konkret cavab verilə bilər.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading4" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Avtomobilimin şinlərinin ölçülərini dəyişə bilərəmmi?</h2>
+                                        </div>
+
+                                        <div id="collapse4" class="accordion-collapse collapse"
+                                            aria-labelledby="heading4" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Avtomobildə şinlərin ölçüləri avtomobilin markasından,
+                                                        modelindən və istehsal ilindən asılı olaraq, istehsalçı zavod
+                                                        tərəfindən təyin edilmiş tələblərə uyğun olmalıdır.
+                                                        Eyni zamanda nəzərinizə çatdırırırıq ki, “Yol hərəkəti haqqında”
+                                                        Azərbaycan Respublikasının Qanununun 30-cu maddəsinin 1 saylı
+                                                        əlavəsinin tələblərinə əsasən istismarda olan nəqliyyat
+                                                        vasitələrinə normativ-texniki sənədlərdə nəzərdə tutulmayan
+                                                        hissələr quraşdırmaq yolu ilə onun konstruksiyasının
+                                                        parametrlərinin dəyişdirilməsi beynəlxalq normativlərə və
+                                                        standartlara uyğun olmalıdır. Avtomobillərdə həmin dəyişikliklər
+                                                        təhlükəsizlik baxımından yalnız istehsalçı zavod tərəfindən
+                                                        quraşdırıla bilər.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading5" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Nəqliyyat vasitəsinin şüşələrinin işıq buraxması qabiliyyəti necə
+                                                olmalıdır?</h2>
+                                        </div>
+
+                                        <div id="collapse5" class="accordion-collapse collapse"
+                                            aria-labelledby="heading5" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Azərbaycan Respublikası Standartlaşdırma, Metrologiya və Patent
+                                                        üzrə Dövlət komitəsinin qəbul etdiyi AZS 122-2004 saylı Dövlət
+                                                        Standartının tələbinə görə avtomobil şüşələrinin işıq buraxması
+                                                        aşağıdakı kimi müəyyən edilmişdir:
+                                                        küləyə qarşı şüşələr üçün - 75%;
+                                                        küləyə qarşı olmayan digər şüşələr üçün -70%;
+                                                        hər iki tərəfdə arxanı göstərən xarici güzgülər olduqda
+                                                        avtomobilin yalnız arxa şüşəsi və yük hissəsindəki yan şüşələri
+                                                        sürücünün salondan arxa görünüşünü təmin etmək şərti ilə
+                                                        normallaşdırılmır.
+                                                        Respublikanın iqlim şəraitini nəzərə alaraq hər il 1 may
+                                                        tarixindən 15 noyabr tarixinədək şüşələrdə sənaye üsulu ilə
+                                                        hazırlanan jalyüzlərin istifadə edilməsinə icazə verilir.
+                                                        Azərbaycan Respublikası Standartlaşdırma, Metrologiya və Patent
+                                                        üzrə Dövlət komitəsinə müraciət edə bilərsiniz.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading6" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Nəqliyyat vasitəsinin pərdə və işıq buraxması qabiliyyəti ilə bağlı
+                                                şərtlər necədir?</h2>
+                                        </div>
+
+                                        <div id="collapse6" class="accordion-collapse collapse"
+                                            aria-labelledby="heading6" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        «Yol hərəkəti haqqında» Azərbaycan Respublikası Qanununun 1
+                                                        saylı Əlavəsində sürücünün görünüş dairəsini məhdudlaşdıran,
+                                                        şüşənin şəfaflığını korlayan hər hansı formada və ölçüdə
+                                                        örtüklər (plyonka, pərdə) çəkilməsi nəqliyyat vasitəsinin
+                                                        istismarının qadağan edilməsinə əsas olan nasazlıq kimi müəyyən
+                                                        edilmişdir.
+                                                        Bu Qanunun tələbinə əsasən işıq buraxma qabiliyyəti dövlət
+                                                        standartının tələblərinə uyğun olan, yalnız sənaye üsulu ilə
+                                                        hazırlanan rəngli şüşələrinin tətbiqinə icazə verilir.
+                                                        Azərbaycan Respublikası Standartlaşdırma, Metrologiya və Patent
+                                                        üzrə Dövlət Agentliyinin AZS 122-2004 saylı standartına əsasən
+                                                        minik avtomobillərində sürücü üçün görünüşü təmin edən şüşəsinin
+                                                        işıqburaxma qabiliyyəti – küləyə qarşı şüşələr üçün -75%, küləyə
+                                                        qarşı olmayan digər şüşələr üçün-70%, avtomobillərin arxa
+                                                        şüşəsinin işıq buraxma qabiliyyəti isə sürücünün salondan arxa
+                                                        görünüşünü təmin etmək şərti ilə normalaşdırılmır.
+                                                        «Yol hərəkəti haqqında» Azərbaycan Respublikası Qanununun 1
+                                                        saylı Əlavəsinin tələblərinə müvafiq olaraq hər iki tərəfində
+                                                        arxanı göstərən xarici güzgülər olduqda minik avtomobillərinin
+                                                        yalnız arxa şuşələrinə örtük (pərdə və plyonka) çəkməyə və ya
+                                                        sənaye üsulu ilə hazırlanan jalyüz asmağa yol verilir.
+                                                        Azərbaycan Respublikasının iqlim şəraitini nəzərə alaraq hər il
+                                                        1 may tarixindən 15 noyabr tarixinədək avtomobillərin
+                                                        şüşələrində sənaye üsulu ilə hazırlanan jalyüzlərin istifadəsinə
+                                                        icazə verilir.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading7" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Nəqliyyat vasitəsində loqotiplərin yerləşdirilməsi qaydaları ilə harada
+                                                tanış ola bilərəm?</h2>
+                                        </div>
+
+                                        <div id="collapse7" class="accordion-collapse collapse"
+                                            aria-labelledby="heading7" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        2015-ci il 15 may tarixli "Reklam haqqında" Qanunun 25.5-ci
+                                                        maddəsinin tələbinə görə şəxsə mənsubiyyətini göstərən
+                                                        fərqləndirici nişanların nəqliyyat vasitəsi üzərində
+                                                        yerləşdirilməsi reklam hesab olunmur.
+                                                        Bu səbəbdən avtomobillərinizdə loqotiplərin (əgər fərqləndirici
+                                                        nişan sayılarsa) hansı formada yerləşəcəyi barədə məlumatı
+                                                        (şəkilləri sxemləri) Baş DYP İdarəsinin Avtotexniki müfəttişlik
+                                                        şöbəsinə təqdim etdiyiniz təqdirdə xahişinizə konkret cavab
+                                                        verilə bilər.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading8" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Nəqliyyat vasitəsinin təkrar qeydiyyatı hansı hallarda aparılmalıdır?
+                                            </h2>
+                                        </div>
+
+                                        <div id="collapse8" class="accordion-collapse collapse"
+                                            aria-labelledby="heading8" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Qüvvədə olan Azərbaycan Respublikasının Nazirlər Kabinetinin 15
+                                                        mart 1999-cu il tarixli 39 nömrəli 4.1 bəndinə əsasən nəqliyyat
+                                                        vasitələrinin təkrar qeydiyyata aşağıdakı hallarda alınır:
+                                                        - fiziki şəxsin yaşayış yeri və ya hüquqi şəxsin olduğu yer
+                                                        dəyişildikdə;
+                                                        - nəqliyyat vasitəsinin sahibi dəyişildikdə;
+                                                        - sahibinin soyadı, adı, atasının adı dəyişildikdə;
+                                                        - avadanlıqla təchiz edilib yenidən yığılmasına və aqreqatların
+                                                        dəyişdirilməsinə görə nəqliyyat vasitəsinin tipi və yaxud modeli
+                                                        dəyişildikdə.
+                                                        Eyni zamanda “Yol hərəkəti haqqında” Azərbaycan Respublikası
+                                                        Qanununun 30-cu maddəsinin və 1 saylı əlavənin tələblərinə
+                                                        əsasən istismarda olan nəqliyyat vasitələrinin normativ-texniki
+                                                        sənədlərində nəzərdə tutulmayan hissələr quraşdırmaq yolu ilə
+                                                        onun konstruksiyasının parametrlərinin dəyişdirilməsi beynəlxalq
+                                                        normativlərə və standartlara uyğun olmalıdır.
+                                                        Məlumat üçün nəzərinizə çatdırırıq ki, İnzibati Xətalar
+                                                        Məcəlləsinin 342.2.2. maddəsində nəqliyyat vasitələrində
+                                                        normativ tələblər pozulmaqla avadanlığın quraşdırılması və ya
+                                                        dəyişdirilməsinə görə 150 manat miqdarında cərimə nəzərdə
+                                                        tutulmuşdur.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading9" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                            <span class="accordion-icon"></span>
+                                            <h2>YPX avtomobilləri qayda poza bilər?</h2>
+                                        </div>
+
+                                        <div id="collapse9" class="accordion-collapse collapse"
+                                            aria-labelledby="heading9" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        «Yol hərəkəti haqqında» Azərbaycan Respublikası Qanununun 74-cü
+                                                        maddəsinə müvafiq olaraq, üstün keçid hüququ olan nəqliyyat
+                                                        vasitəsinin sürücüsü yol hərəkətinin digər iştirakçıları üçün
+                                                        təhlükəli vəziyyət yaratmamaq şərtilə bu Qanunun tələblərindən
+                                                        kənara çıxa bilər. Üstün keçid hüququ olan operativ nəqliyyat
+                                                        vasitələrinin xüsusi səs siqnalı və sayrışan işıq siqnalı
+                                                        olmalıdır.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading10" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse10" aria-expanded="true"
+                                            aria-controls="collapse10">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Mənə yazılmış cəriməni ödəyə bilmirəm. Cəriməni hissə-hissə – 5-6 ay
+                                                ərzində ödəyə bilərəmmi?</h2>
+                                        </div>
+
+                                        <div id="collapse10" class="accordion-collapse collapse"
+                                            aria-labelledby="heading10" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Azərbaycan Respublikasının qüvvədə olan İnzibati Xətalar
+                                                        Məcəlləsinin 7.1-ci maddəsinə əsasən, inzibati xəta törətmiş
+                                                        şəxslər irqindən, milliyyətindən, dinindən, dilindən, cinsindən,
+                                                        mənşəyindən, əmlak vəziyyətindən, qulluq mövqeyindən,
+                                                        əqidəsindən və digər hallardan asılı olmayaraq qanun qarşısında
+                                                        bərabərdirlər. Bu maddədə nəzərdə tutulmuş əsaslara görə heç kəs
+                                                        inzibati məsuliyyətə cəlb oluna və inzibati məsuliyyətdən azad
+                                                        oluna bilməz.
+                                                        Həmin Məcəllənin 150.11-ci maddəsinə əsasən yol hərəkəti
+                                                        qaydaları əleyhinə olan inzibati xətaların törədilməsinə görə
+                                                        barəsində inzibati cərimə tənbeh növü tətbiq edilən şəxs qərarı
+                                                        dərhal və ya qərarın qanuni qüvvəyə mindiyi gündən 5 iş günü
+                                                        müddətində icra edərsə, tətbiq olunan cərimənin 10 faizi
+                                                        məbləğində ödənişdən azad edilir.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading11" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse11" aria-expanded="true"
+                                            aria-controls="collapse11">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Avtomobili idarə edərkən, üzərimdə hansı sənədləri saxlamayılam?</h2>
+                                        </div>
+
+                                        <div id="collapse11" class="accordion-collapse collapse"
+                                            aria-labelledby="heading11" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        «Yol hərəkəti haqqında» Azərbaycan Respublikası Qanununun 37-ci
+                                                        maddəsinin 1-ci bəndinə əsasən mexaniki nəqliyyat vasitəsinin
+                                                        sürücüsü sürücülük vəsiqəsini (fərdi nəqliyyat vasitəsinin
+                                                        sahibi olmadıqda, sürücünün nəqliyyat vasitəsini idarə etmək
+                                                        hüququna dair müəyyən edilmiş qaydada təsdiqlənmiş
+                                                        etibarnaməsini və ya nəqliyyat vasitəsinə ümumi mülkiyyət
+                                                        hüququna dair şəhadətnaməsini),sürücülük vəsiqəsi müəyyən
+                                                        edilmiş qaydadaAzərbaycan Respublikasının müvafiq icra
+                                                        hakimiyyəti orqanı tərəfindən alınmış olduqda isə onu əvəz edən
+                                                        xüsusi arayışı, nəqliyyat vasitəsinin qeydiyyat şəhadətnaməsini,
+                                                        avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari
+                                                        sığortası və sərnişin daşımaları xidmətini həyata keçirən
+                                                        avtonəqliyyat vasitələri ilə daşınan sərnişinlərin (şəhərdaxili
+                                                        və ya qəsəbədaxili daşınan sərnişinlər istisna olmaqla) fərdi
+                                                        qəza sığortası müqaviləsinin “İcbari sığortalar haqqında”
+                                                        Azərbaycan Respublikasının Qanununa uyğun olaraq bağlanmasını
+                                                        təsdiq edən icbari sığorta şəhadətnaməsini, nəqliyyat
+                                                        vasitələrindən kommersiya məqsədləri üçün istifadə edildikdə
+                                                        xüsusi razılıq və ya yol (marşrut) vərəqəsini və daşınan yüklərə
+                                                        dair sənədləri özündə saxlamalıdır.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading12" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse12" aria-expanded="true"
+                                            aria-controls="collapse12">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Mənə yazılmış protokollar üzrə cərimələri internetdə necə ödəyə bilərəm?
+                                            </h2>
+                                        </div>
+
+                                        <div id="collapse12" class="accordion-collapse collapse"
+                                            aria-labelledby="heading12" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Qəbul edilmiş qərar üzrə ödənilməmiş cərimə məbləği və ya
+                                                        qüvvədə olan cərimə balı barədə Azərbaycan Respublikası Daxili
+                                                        İşlər Nazirliyinin www.mia.gov.az və Baş DYP İdarəsinin
+                                                        www.dyp.gov.az rəsmi internet saytlarının “Cərimələr və cərimə
+                                                        balları barədə məlumatlar” bölümündə sürücülük vəsiqəsinin
+                                                        rekvizitlərini daxil etməklə məlumatlar əldə edə, habelə
+                                                        internet üzərindən plastik kart vasitəsilə ödəmə apara
+                                                        bilərsiniz.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading13" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse13" aria-expanded="true"
+                                            aria-controls="collapse13">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Cərimələr və onların ödənilməsi ilə bağlı haradan məlumat ala bilərəm?
+                                            </h2>
+                                        </div>
+
+                                        <div id="collapse13" class="accordion-collapse collapse"
+                                            aria-labelledby="heading13" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Sorğunuza cavab olaraq bildiririk ki, hər bir şəxsin yol
+                                                        hərəkəti qaydalarının pozuntusu ilə əlaqədar barəsində tətbiq
+                                                        edilən inzibati tənbeh haqqında qərarlarla və onların nəticələri
+                                                        (cərimələr və onların ödənilməsi, balların sayı və ya silinməsi)
+                                                        ilə bağlı sürücülük vəsiqəsinin və ya idarə etdiyi nəqliyyat
+                                                        vasitəsinin revizitlərini daxil etməklə məlumat ala bilməsi üçün
+                                                        həmin məlumatlar qanunverijiliyin tələbinə uyğun olaraq Daxili
+                                                        İşlər Nazirliyinin rəsmi internet informasiya ehtiyatlarında
+                                                        yerləşdirilmişdir.
+                                                        Mia.gov.az, dyp.gov.az, e-xidmət.mia.gov.az saytlarına daxil
+                                                        olmaqla həmin məlumatları əldə edə bilərsiniz.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading14" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse14" aria-expanded="true"
+                                            aria-controls="collapse14">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Hansı hallarda inzibati xəta haqqında işə vətəndaşın iştirakı olmadan
+                                                baxıla bilər?</h2>
+                                        </div>
+
+                                        <div id="collapse14" class="accordion-collapse collapse"
+                                            aria-labelledby="heading14" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        İnzibati xəta haqqında işə onun törədildiyi yerdə və iş üzrə
+                                                        icraat aparılan şəxsin iştirakı ilə baxılır. Barəsində inzibati
+                                                        xəta haqqında iş üzrə icraat aparılan şəxsin vəsatətinə əsasən
+                                                        inzibati xəta haqqında işə onun yaşadığı yer üzrə baxıla bilər.
+                                                        Həmin işə şəxsin iştirakı olmadan, yalnız o hallarda baxılır ki,
+                                                        işə baxılmasının yeri və müddətinin ona vaxtında bildirilməsi
+                                                        barədə məlumat olsun və ya işə baxılmasını təxirə salmaq
+                                                        haqqında ondan vəsatət daxil olmasın, yaxud belə vəsatət rədd
+                                                        edilmiş olsun.
+                                                        Bu səbəbdən inzibati xəta haqqında işə iştirakınızla baxılması
+                                                        üçün inzibati xəta haqqında işə baxmağa səlahiyyəti olan
+                                                        hakimin, orqanın (vəzifəli şəxsin) bu cür işlərə inzibati xəta
+                                                        haqqında protokolu və işin digər materiallarını aldığı vaxtdan
+                                                        on beş gün müddətində baxmasını nəzərə alaraq, vəsatət
+                                                        verdiyiniz təqdirdə yaşadığınız, əks halda isə inzibati xətanın
+                                                        törədildiyi yer üzrə DYP qurumlarına müraciət edə bilərsiniz.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading15" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse15" aria-expanded="true"
+                                            aria-controls="collapse15">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Vətəndaş qayda pozuntusu və ya cərimə ilə razı olmadıqda
+                                                qanunvericiliklə qarşı tərəf hansı addımı atmalıdır?</h2>
+                                        </div>
+
+                                        <div id="collapse15" class="accordion-collapse collapse"
+                                            aria-labelledby="heading15" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Bildiririk ki, mövcud qanunvericiliyin tələblərinə əsasən
+                                                        inzibati xətalar haqqında işlərə baxmaq hüququ səlahiyyətli
+                                                        orqana (vəzifəli şəxsə) aid edilmiş yol hərəkəti qaydaları
+                                                        əleyhinə olan inzibati xətalar səlahiyyətli vəzifəli şəxs
+                                                        tərəfindən bilavasitə aşkar edildikdə və barəsində inzibati xəta
+                                                        haqqında iş üzrə icraat aparılan şəxs inzibati xəta hadisəsinin
+                                                        mövcudluğu ilə razılaşdıqda, inzibati tənbeh tətbiq etmə
+                                                        haqqında qərar çıxarılır. Barəsində inzibati xəta haqqında iş
+                                                        üzrə icraat aparılan şəxs inzibati xəta hadisəsinin mövcudluğu
+                                                        ilə razılaşmadıqda, səlahiyyətli vəzifəli şəxs inzibati xəta
+                                                        haqqında protokol tərtib edir və işə baxılmasının yeri və
+                                                        müddəti barədə məlumat verir.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading16" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse16" aria-expanded="true"
+                                            aria-controls="collapse16">
+                                            <span class="accordion-icon"></span>
+                                            <h2>YPX inspektoru inzibati xəta törətdiyim anın görüntüsünü mənə təqdim
+                                                etmədi. Bu nə dərəcədə doğrudur?</h2>
+                                        </div>
+
+                                        <div id="collapse16" class="accordion-collapse collapse"
+                                            aria-labelledby="heading16" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Bildiririk ki, yol hərəkəti qaydaları əleyhinə törədilən
+                                                        inzibati xəta xüsusi texniki vasitələrin köməyi ilə aşkar
+                                                        edildikdə, nəqliyyat vasitəsinin dövlət qeydiyyat nişanının
+                                                        nömrəsi, inzibati xəta sürət həddinin aşılması ilə əlaqədar
+                                                        olduqda sürətölçən cihazın göstəricisi, inzibati xətanın
+                                                        törədilmə yeri və tarixi barədə məlumatlar göstərilməklə,
+                                                        barəsində inzibati xəta haqqında iş üzrə icraat aparılan şəxsin
+                                                        inzibati xətanın törədildiyi anın fotoşəklini almaq hüququ
+                                                        vardır. Lakin törətdiyiniz yol hərəkəti qaydaları əleyhinə olan
+                                                        inzibati xəta səlahiyyətli vəzifəli şəxs tərəfindən bilavasitə
+                                                        aşkar edildiyinə görə inzibati xətanın törədildiyi anın
+                                                        fotoşəklinin təqdim edilməsi mövcud qanunvericilikdə nəzərdə
+                                                        tutulmamışdır.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading17" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse17" aria-expanded="true"
+                                            aria-controls="collapse17">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Yaşayış yerini müvəqqəti dəyişən şəxs nə etməlidir?</h2>
+                                        </div>
+
+                                        <div id="collapse17" class="accordion-collapse collapse"
+                                            aria-labelledby="heading17" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        “Yaşayış yeri və olduğu yer üzrə qeydiyyat haqqında” Azərbaycan
+                                                        Respublikası Qanununun 10-cu maddəsinə əsasən Yaşayış yerindən
+                                                        kənarda 60 gündən artıq müvəqqəti yaşamaq istəyən vətəndaş həmin
+                                                        yerə gəldikdən sonra 7 gün ərzində dövlət orqanına müraciət
+                                                        etməli və dərhal qeydiyyata alınmalıdır.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading18" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse18" aria-expanded="true"
+                                            aria-controls="collapse18">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Mülkiyyətimdə olan evdə (mənzildə) qeydiyyatda olan şəxsləri
+                                                qeydiyyatdan çıxarmaq üçün nə etməliyəm?</h2>
+                                        </div>
+
+                                        <div id="collapse18" class="accordion-collapse collapse"
+                                            aria-labelledby="heading18" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        “Yaşayış yeri və olduğu yer üzrə qeydiyyat haqqında” Azərbaycan
+                                                        Respublikası Qanununun 9-cu maddəsinə əsasən məhkəməyə aidiyyəti
+                                                        üzrə müraciət etməlisiniz.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading19" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse19" aria-expanded="true"
+                                            aria-controls="collapse19">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Şəxsiyyət vəsiqəsi üçün başı örtülü şəkil çəkdirmək olarmı?</h2>
+                                        </div>
+
+                                        <div id="collapse19" class="accordion-collapse collapse"
+                                            aria-labelledby="heading19" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        “Azərbaycan Respublikası vətəndaşının şəxsiyyət vəsiqəsi
+                                                        haqqında” Azərbaycan Respublikası Qanununun tətbiqi barədə
+                                                        Əsasnamənin 2.10-cu maddəsinə əsasən vətəndaşın Beynəlxalq Mülki
+                                                        Aviasiya Təşkilatının (İCAO-nun) tələblərinə uyğun (başı açıq)
+                                                        fotoşəkli çəkilməlidir.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading20" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse20" aria-expanded="true"
+                                            aria-controls="collapse20">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Yaşadığım evin hüquqi sənədi yoxdur. Bu evə qeydiyyata düşə bilərəmmi?
+                                            </h2>
+                                        </div>
+
+                                        <div id="collapse20" class="accordion-collapse collapse"
+                                            aria-labelledby="heading20" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Bildiririk ki, “Yaşayış yeri və olduğu yer üzrə qeydiyyat
+                                                        haqqında” Azərbaycan Respublikası Qanununun 5-ci maddəsinin
+                                                        tələblərinə əsasən vətəndaş yaşayış yeri üzrə qeydiyyata alınmaq
+                                                        üçün digər zəruri sənədlərlə birlikdə yaşayış sahəsinə köçmək
+                                                        üçün əsas verən sənəd (mülkiyyət hüququnun dövlət qeydiyyatına
+                                                        alınması haqqında daşınmaz əmlakın dövlət reyestrindən çıxarış,
+                                                        order, icarə və ya kirayə müqaviləsi, yaxud Azərbaycan
+                                                        Respublikası qanunvericiliyində nəzərdə tutulmuş başqa sənəd)
+                                                        təqdim etməlidir.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <div class="accordion-header collapsed" id="heading21" data-bs-toggle="collapse"
+                                            data-bs-target="#collapse21" aria-expanded="true"
+                                            aria-controls="collapse21">
+                                            <span class="accordion-icon"></span>
+                                            <h2>Rayon qeydiyyatında olan şəxs Bakı şəhərində şəxsiyyət vəsiqəsi ala
+                                                bilərmi?</h2>
+                                        </div>
+
+                                        <div id="collapse21" class="accordion-collapse collapse"
+                                            aria-labelledby="heading21" data-bs-parent="#accordionGov">
+                                            <div class="accordion-body">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        Bildiririk ki, vətəndaş şəxsiyyət vəsiqəsini almaq və ya
+                                                        dəyişdirmək üçün qeydiyyatda olduğu ərazi üzrə polis orqanına və
+                                                        ya “ASAN xidmət” mərkəzinə müraciət etməlidir.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+
+
+                                <div class="accordion-bottom">
+                                    <a href="javascript:history.go(-1);">Geriyə qayıt</a>
+                                    <a class="print-icon no-print" href="#" target="_blank">
+                                        <img src="./src/img/print.png" alt="print" class="print-image"
+                                            style="width: 100%;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+
+
+            </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer-call-center">
+            <div class="container">
+                <div class="footer-call-flex">
+                    <div class="footer-flex-2">
+                        <img src="./src/img/phone-hangup.svg" class="footer-call-center-img" alt="call-center-img">
+
+                        <div class="footer-call-center-content">
+                            <p class="footer-call-center-text">
+                                Məlumat mərkəzi:
+                            </p>
+                            <a href="tel:(+994(12)5909222)" class="footer-call-center-number">
+                                +994 (12) 590 92 22
+                            </a>
+                        </div>
+                    </div>
+                    <a href="electron.html" class="enrollment">
+                        Qəbula Yazıl
+                    </a>
+                    <a href="electronic_application.html" class="enrollment">
+                        Onlayn Müraciət
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-address">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <p class="footer-text">Ünvan: <span class="footer-span">
+                                Naxçıvan şəhəri, AZ 7000
+                            </span>
+                        </p>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <p class="footer-text">Tel: <a href="" class="footer-span"> (036) 545-08-03</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <p class="footer-text">
+                            E-mail: <a href="" class="footer-span"> xxx@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <p class="footer-text"> Faks: <a href="" class="footer-span">(xxx) xxx xx xx</a></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <ul class="footer-social">
+                            <li class="footer-social-li">
+                                <a href="" class="footer-social-litransition-a"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="footer-social-li">
+                                <a href="" class="footer-social-litransition-a">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="footer-social-li">
+                                <a href="" class="footer-social-litransition-a">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+
+                            <li class="footer-social-li">
+                                <a href="" class="footer-social-litransition-a">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom-details">
+            <div class="container">
+                <div class="bottom_text">
+                    <span class="copyright_text"> © 2024 Tərtibat və proqramlaşdırma: <a href="https://nmincom.gov.az/"
+                            target="_blank">Naxçıvan Muxtar
+                            Respublikası
+                            Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi</a>
+                    </span>
+
+
+                    <ul class="footer-menu-flex">
+                        <li class="footer-menu-li">
+                            <a href="dsh.html" class="footer-menu-a">Dövlət sirri haqqında</a>
+                        </li>
+                        <li>
+                            <a href="dsh.html">İstifadə qaydaları</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./src/js/switch-eye.js"></script>
+    <script src="./src/js/map.js"></script>
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>

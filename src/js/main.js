@@ -23,7 +23,24 @@
 // });
 
 // loader end
+// calendar
+ // Cari tarixi alırıq
+ const currentDate = new Date();
 
+ // Tarixi formatlayırıq: Gün/Ay/İl, Saat:Dəqiqə
+ const formattedDate = currentDate.toLocaleString('tr-TR', {
+     day: '2-digit',
+     month: '2-digit',
+     year: 'numeric',
+     hour: '2-digit',
+     minute: '2-digit',
+     hour12: false
+ });
+
+ // Tarixi DOM-a əlavə edirik
+ document.getElementById('date-blog').textContent = formattedDate;
+
+// asasas
 document.addEventListener('DOMContentLoaded', function () {
   var navLinks = document.querySelectorAll('.nav-link');
   var currentURL = window.location.href;
@@ -138,12 +155,52 @@ function SVS_B(eAmt, where) {
     window.scrollBy(0, eAmt);
   }
 }
-// print
-document.addEventListener('DOMContentLoaded', function () {
-  const printIcon = document.querySelector('.print-icon');
-  printIcon.addEventListener('click', function (event) {
-    event.preventDefault(); 
-    window.print();
+
+
+// owl-carousel
+// $(function () {
+//   var owl = $(".owl-carousel");
+//   owl.owlCarousel({
+//     items: 3,
+//     margin: 10,
+//     loop: true,
+//     nav: true,
+//     responsive: {
+//       0: {
+//         items: 1
+//       },
+//       600: {
+//         items: 2
+//       },
+//       1000: {
+//         items: 3
+//       }
+//     }
+//   });
+// });
+
+
+$(document).ready(function () {
+  $('.custom-next').click(function () {
+    owl.trigger('next.owl.carousel');
+  });
+
+  $('.custom-prev').click(function () {
+    owl.trigger('prev.owl.carousel');
   });
 });
+// police mobile-navbar
+function handleSidebar() {
+  let sidebarList = document.getElementById('sidebar-list');
+  let sidebarOpener = document.getElementById('sidebar-expand-icon');
 
+  if (sidebarOpener.classList.contains("sidebar-expanding-open")) {
+    sidebarList.style.display = "none"
+    sidebarOpener.classList.remove("sidebar-expanding-open");
+  } else {
+    sidebarList.style.display = "block";
+    sidebarOpener.classList.add('sidebar-expanding-open');
+  }
+}
+
+// aaaaaaaaaaaaaaaaaaaaaaaa

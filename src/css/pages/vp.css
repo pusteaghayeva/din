@@ -1,0 +1,487 @@
+.vp {
+    background-color: var(--accordionBg);
+    font-family: "Roboto", sans-serif;
+}
+.police-sidebar2{
+    display: none;
+}
+.police-header {
+    height: 245px;
+    width: 100%;
+    background-image: url(../images/police-header.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.police-header-content {
+    max-width: 560px;
+}
+
+.police-header-title {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: var(--whiteColor);
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 17px;
+}
+.police-header-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--whiteColor);
+    font-family: "Roboto", sans-serif;
+}
+
+.police-sidebar {
+    padding-top: 60px;
+}
+
+.ministry-layout {
+    font-family: "Roboto", sans-serif;
+}
+
+.ethics-code {
+    position: relative;
+}
+
+.ethics-title-flex {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 44px 0 12px;
+}
+.ethics-code-title {
+    color: var(--newsColor);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 0 32px;
+}
+
+.codicon_book {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-left: 16px;
+}
+
+.ethics-code-content {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: var(--newsColor);
+    padding: 0 32px;
+}
+
+.detail {
+    width: 140px;
+    background-color: var(--mainColor);
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--whiteColor);
+    transition: all .5s;
+    display: block;
+    border: 1px solid transparent;
+    margin: 12px;
+    margin-left: auto;
+}
+
+.detail:hover {
+    border: 1px solid var(--mainColor);
+    background-color: var(--whiteColor);
+    color: var(--mainColor);
+    padding: 10px;
+}
+
+.police-img-div {
+    width: 100%;
+    height: 150px;
+}
+
+.police-car {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vp-thanks-police {
+    background-color: var(--whiteColor);
+    padding-bottom: 72px;
+}
+
+.vp-thanks-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.vp-thanks {
+    border: 1px solid var(--newsDateBg);
+    color: var(--newsColor);
+    width: 160px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 16px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all .4s ease-out;
+}
+
+.vp-thanks:hover {
+    border: 1px solid var(--otherDateColor);
+    color: var(--navbarBg);
+}
+
+.vp-thanks-text {
+    width: 60%;
+    color: var(--newsColor);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+
+}
+.vacancies-col {
+    padding: 30px 0;
+}
+
+.vacancies-col-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--newsColor);
+    height: 120px;
+}
+
+.vacancies-col-img {
+    width: 256px;
+    height: 132px;
+    object-fit: cover;
+    margin: 16px 0;
+}
+
+.all-vacancies {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 10px 0 30px 0;
+    border: 1px solid transparent;
+}
+
+.vacancies-btn {
+    background-color: var(--newsDateBg);
+    color: var(--whiteColor);
+    width: 256px;
+    padding: 14px;
+    transition: all .4s ease-in-out;
+    border: 1px solid var(--newsDateBg);
+
+}
+
+.vacancies-btn:hover {
+    background-color: var(--whiteColor);
+    color: var(--newsDateBg);
+}
+
+.vacancies-btn:nth-child(2) {
+    margin-left: 30px;
+}
+
+.police-faq {
+    background-color: var(--whiteColor);
+    padding-bottom: 58px;
+}
+
+/* owl-carousel */
+.home-demo .item {
+    width: 95%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid var(--mainColor);
+}
+
+.owl-carousel .item:hover {
+    border: 1px solid var(--newsColor);
+    transition: border 0.3s ease;
+}
+
+.owl-carousel .item:hover .question {
+    filter: invert(50%);
+    transition: filter 0.3s ease;
+}
+
+
+.home-demo h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--questionText);
+
+}
+
+.question {
+    width: 30px;
+    height: 30px;
+}
+
+.question-abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+.home-demo .owl-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-demo .owl-nav i {
+    color: var(--iColor);
+    margin: 5px;
+    font-size: 20px;
+}
+
+.home-demo .owl-dots {
+    display: none;
+}
+
+.all-questions {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accordionName);
+    text-align: right;
+    display: block;
+    margin: 28px 0;
+    text-decoration: underline;
+}
+
+.all-questions:hover {
+    color: var(--accordionName);
+}
+
+
+
+@media screen and (max-width: 1200px) and (min-width:768px) {
+    .vacancies-col-img{
+        width: 100%;
+    }
+    .vacancies-col-title{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 21px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .police-header-title {
+        font-size: 34px;
+    }
+
+    .contact-sidebar {
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+
+    .ethics-title-flex {
+        padding: 14px 0 6px;
+        justify-content: center;
+    }
+
+    .ethics-code-title {
+        font-size: 18px;
+        padding: 0;
+    }
+
+    .ethics-code-content {
+        padding: 0;
+    }
+
+    .vp-thanks-flex {
+        display: block;
+    }
+    .vp-thanks-text{
+        width: 100%;
+    }
+    .vp-thanks{
+    margin:16px auto;
+        width: auto;
+    }
+    .vp-thanks-police{
+        padding-bottom: 20px;
+    }
+    .vacancies-col{
+        padding: 0;
+        text-align: center;
+    }
+    .vacancies-col-title{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .vacancies-btn{
+        text-align: center;
+        padding: 7px;
+        font-size: 14px;
+    }
+    .ethics-title-flex {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 34px 0 12px;
+    }
+
+}
+
+.menu-button {
+    background-color: transparent;
+    border: 0;
+    display: none;
+}
+.mobile-sidebar  {
+    display: none;
+}
+
+.sidebar-expanding {
+    width: 50px;
+    height: 50px;
+    background-image: url('../../img/mobile-sidebar.png');
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+.sidebar-expanding-open {
+    transform: rotate(0) !important;
+}
+
+.service-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+.service-icon i {
+    color: #fff;
+}
+@media (max-width: 767px) {
+    .police-sidebar2 {
+        display: none;
+    }
+
+    .mobile-sidebar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .custom-accordion .accordion-header {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+
+    .contact-sidebar {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .contact-sidebar h2 {
+        font-weight: 700;
+        font-weight: 700;
+        border-bottom: 2px solid #1EBFE3;
+        margin-bottom: 0;
+    }
+
+    .contact-sidebar ul {
+        display: none;
+        margin: 15px;
+        transition: 0.5s;
+        margin-bottom: 0 !important;
+    }
+
+    .full-width-sidebar {
+        display: none;
+    }
+
+    .menu-button {
+        order: 2;
+        display: block;
+    }
+
+    .navbar-nav {
+        padding-top: 20px;
+    }
+
+
+    .full-width-sidebar {
+        width: 50%;
+        position: absolute;
+        left: 0;
+        background-color: #F2F2F2;
+        z-index: 9;
+    }
+
+
+    .custom-mobile-nav {
+        width: 70px;
+        height: 50px;
+        background-color: #1EBFE3;
+        border-radius: 0;
+        border: 0;
+        outline: 0;
+        box-shadow: 0 !important;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .custom-mobile-nav:focus {
+        box-shadow: none !important;
+    }
+
+    .custom-mobile-nav span {
+        width: 100%;
+        height: 4px;
+        background-color: #fff;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .thanks-police .thanks-police-item {
+        height: 450px;
+    }
+    .thanks-police .thanks-police-item .tp-content {
+        padding: 15px;
+    }
+}

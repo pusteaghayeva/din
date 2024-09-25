@@ -1,0 +1,113 @@
+.low {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.faq-legislation {
+  margin-bottom: 30px;
+}
+
+.low-sidebar p {
+  color: #808da5;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.low-sidebar a {
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--usefulTitle);
+  padding: 5px 15px;
+  border: 1px solid var(--legislationColor);
+  box-sizing: border-box;
+  border-radius: 20px;
+  float: left;
+  font-weight: 400;
+  margin-bottom: 13px;
+  margin-right: 8px;
+  transition: 0.4s;
+}
+.low-sidebar a:hover {
+  background-color: var(--legislationColor);
+  color: var(--whiteColor);
+}
+
+.faq-i .useful-blog {
+  border: 1px solid var(--faqBorder);
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  height: auto;
+  transition: 0.5s;
+  margin: 0 auto;
+}
+
+.faq-i .useful-blog:hover {
+  border: 1px solid var(--legislationColor);
+  background-color: #f5fdff;
+  transform: scaleX(1.01);
+}
+
+.legislation .categories {
+  margin-bottom: 30px;
+}
+
+.legislation .categories-menu {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.legislation .categories-menu ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.legislation .categories-menu ul li {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+.legislation .categories-menu ul li a {
+  color: #b2bbc5;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  transition: 0.5s;
+}
+
+.legislation .categories-menu ul li a:hover {
+  color: var(--usefulTitle);
+  border-bottom: 3px solid var(--legislationColor);
+}
+
+.legislation .categories-menu ul .categories-menu__active a {
+  color: var(--usefulTitle);
+  border-bottom: 3px solid var(--legislationColor);
+}
+.faq-i .useful-title {
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .low-sidebar {
+    margin-bottom: 30px;
+  }
+  .legislation .categories-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .legislation .categories-menu ul li a {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

@@ -1,3 +1,8 @@
+* {
+    font-family: "Roboto", sans-serif;
+
+}
+
 .electronic_applications {
     padding: 60px 0;
     color: var(--whiteColor);
@@ -29,7 +34,7 @@
     margin-bottom: 30px;
 }
 
-.form-group {
+.electronic_applications .form-group {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,7 +64,7 @@
     padding-bottom: 5px;
 }
 
-.form-group:after {
+.electronic_applications .form-group:after {
     clear: both;
 }
 
@@ -182,6 +187,41 @@ table {
     margin: 10px 0;
 }
 
+.form-horizontal .control-label,
+.form-inline label,
+form label {
+    padding-top: 0;
+    font-weight: 100;
+    vertical-align: bottom;
+}
+
+input[type=checkbox].w3-check,
+input[type=radio].w3-radio {
+    top: 0px;
+}
+
+input[type=checkbox].w3-check,
+input[type=radio].w3-radio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px;
+}
+
+input[type=checkbox].w3-check:checked+.w3-validate,
+input[type=radio].w3-radio:checked+.w3-validate {
+    color: #ffffff;
+}
+
+.form-horizontal .control-label,
+.form-inline label,
+form label {
+    padding-top: 0;
+    font-weight: 100;
+    vertical-align: bottom;
+}
+
+
 @media screen and (max-width: 768px) and (min-width:320px) {
     .frame {
         margin-top: 15px;
@@ -191,6 +231,7 @@ table {
 @media (min-width: 768px) {
     .form-inline .form-group {
         display: inline-block;
+        display: flex;
         margin-bottom: 0;
         vertical-align: middle;
     }
